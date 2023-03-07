@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Inter:wght@200;300;400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500&display=swap');
+
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}   
+
+.card {
+    width: 320px;
+    height: 250px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #163583;
+    border-radius: 5px;
+}
+
+.img {
+    flex: 1;
+    height: 60%;
+}
+
+.heading {
+    flex: 1;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 400;
+}

@@ -1,4 +1,4 @@
-import Link from "next/link";
+// import Link from "next/link";
 import { Ubuntu } from "next/font/google";
 import styles from "./navbar.module.css";
 
@@ -18,7 +18,7 @@ const links = [
   },
   {
     label: "Sobre Nosotros",
-    route: "/posts",
+    route: "#sobre-nos",
   },
   {
     label: "Contacto",
@@ -44,9 +44,9 @@ export default function Navbar() {
             {links.map(({ label, route }) => {
               return (
                 <li key={route}>
-                  <Link className={styles.linkTag} href={route}>
+                  <a as={route} className={styles.linkTag} href={route}>
                     {label}
-                  </Link>
+                  </a>
                 </li>
               );
             })}
