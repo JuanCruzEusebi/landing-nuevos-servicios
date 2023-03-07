@@ -14,7 +14,7 @@ const links = [
   },
   {
     label: "Servicios",
-    route: "/about",
+    route: "#servicios",
   },
   {
     label: "Sobre Nosotros",
@@ -22,7 +22,7 @@ const links = [
   },
   {
     label: "Contacto",
-    route: "/contact",
+    route: "#contacto",
   },
 ];
 

@@ -43,12 +43,14 @@ const data = [
 export default function Services() {
   return (
     <div
+      id="servicios"
       style={{
         backgroundImage: `url(${bg.src})`,
         backgroundSize: "cover",
         height: "100%",
         position: "center",
         marginTop: "100px",
+        paddingBottom: "100px",
       }}
     >
       <div className={style.headContainer}>
