@@ -9,30 +9,48 @@
 }   
 
 .card {
-    width: 320px;
-    height: 250px;
-    margin: 40px;
+    width: 250px;
+    height: 280px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #163583;
+    background-size: cover;
+    opacity: 0.9;
     border-radius: 5px;
 }
 
+.card:hover {
+    opacity: 1;
+}
+
+
 .img {
-    flex: 1;
-    height: 60%;
+    height: 80%;
 }
 
 .heading {
-    flex: 1;
-    height: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    height: 100%;
     font-family: 'Inter', sans-serif;
     color: white;
     text-transform: uppercase;
-    font-size: 1.2em;
-    font-weight: 400;
+    font-size: 5em;
+    font-weight: 300;
+    text-align: left;
+    padding: 10px;
+    text-align: center;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+.para {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+    letter-spacing: 5px;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.619);
+    text-align: center;
+    padding: 20px;
 }
