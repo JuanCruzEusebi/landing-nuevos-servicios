@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Inter:wght@200;300;400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,500;1,600&family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500&display=swap');
+
+
+.mainContainer {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #163583;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+}
+
+.menuContainer > h1 {
+    font-family: 'Raleway', sans-serif;    
+
+}   
+
+
+.menuLinks {
+    list-style: none;
+}
+
+.menuLinks > div > li {
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;    
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+}
+
+.contactContainer > h1 {
+    font-family: 'Raleway', sans-serif;    
+
+}
+
+.contactItem {
+    list-style: none;
+}
+
+.contactItem > div > li {
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+}
+
+.headingContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingContainer > h1 {
+    padding-left: 100px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+@media (max-width: 900px) {
+    .mainContainer {
+        flex-direction: column;
+    }
+    .headingContainer > h1 {
+        padding: 0;
+        margin-bottom: 40px;
+    
+    }
+
+
+  }
