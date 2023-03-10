@@ -139,7 +139,7 @@ export default function Footer() {
               />
             </svg>
 
-            <li>1150967779</li>
+            <li className={styles.phone}>1150967779</li>
           </div>
           <div style={{ display: "flex" }}>
             <svg
@@ -159,7 +159,7 @@ export default function Footer() {
               />
             </svg>
 
-            <li>nuevos_servicios</li>
+            <li className={styles.ig}>nuevos_servicios</li>
           </div>
         </ul>
       </div>
