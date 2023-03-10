@@ -15,19 +15,7 @@ export default function Home() {
   return (
     <section className={styles.bodyContainer}>
       <div className={styles.mainContainer}>
-        <h1
-          className={fontTwo.className}
-          style={{
-            color: "#163583",
-            fontSize: "2.4em",
-            fontWeight: "800",
-            letterSpacing: "15px",
-            textAlign: "center",
-            marginBottom: "10px",
-          }}
-        >
-          SERVICIOS DE LIMPIEZA
-        </h1>
+        <h1 className={styles.heading}>SERVICIOS DE LIMPIEZA</h1>
         <p
           className={fontTwo.className}
           style={{
@@ -40,21 +28,7 @@ export default function Home() {
           Mantenimiento integral de oficinas, clincias, locales comerciales e
           industrias
         </p>
-        <button
-          className={fontTwo.className}
-          style={{
-            backgroundColor: "#163583",
-            color: "white",
-            width: "500px",
-            border: "none",
-            height: "45px",
-            borderRadius: "25px",
-            marginTop: "15px",
-            fontSize: "1em",
-          }}
-        >
-          PEDI HOY TU PRESUPUESTO!
-        </button>
+        <button className={styles.mainButton}>PEDI HOY TU PRESUPUESTO!</button>
       </div>
     </section>
   );

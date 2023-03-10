@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Inter:wght@200;300;400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,500;1,600&family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500&display=swap');
 
 .navContainer {
     box-sizing: border-box;
@@ -9,14 +9,28 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
+
+}
+
+.headingOne {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+.headingTwo {
+    font-weight: 400;
+    font-family: 'Lora', serif;
+    color: #163583;
+    font-style: italic;
 }
 
 .headContainer {
     flex: 1;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin-left: 50px;
     font-size: 1.3em;
     font-weight: 200;
+    display: flex;
+    align-items: center;
 }
 
 .linksContainer {
@@ -34,8 +48,33 @@
 .linkTag {
     color: black;
     text-decoration: none;
-    font-size: 1em;
-    font-weight: 400;
-    font-family: 'Work Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;    
+    letter-spacing: 2px;
+    opacity: 0.8;
 
 }
+
+.hambMenu {
+    display: none;
+    margin-right: 20px;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .linksContainer > nav {
+        display: none;
+    }
+    .linksContainer {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .hambMenu {
+        display: flex;
+        margin-right: 40px;
+    }
+
+  }

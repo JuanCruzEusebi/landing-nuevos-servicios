@@ -14,7 +14,7 @@ export default function AboutUs() {
           multiples servicios y mantenimientos generales a una gran cartera de
           clientes. Cada servicio cuenta con un programa de trabajo diseñado a
           medida, en el cual se detallan las rutinas del personal, los productos
-          y la maquinaria a utilizar.
+          y la maquinaria a utilizar.
         </p>
       </div>
     </section>

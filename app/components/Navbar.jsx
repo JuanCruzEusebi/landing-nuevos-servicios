@@ -9,19 +9,19 @@ const fontTwo = Ubuntu({
 
 const links = [
   {
-    label: "Inicio",
+    label: "INICIO",
     route: "/",
   },
   {
-    label: "Servicios",
+    label: "SERVICIOS",
     route: "#servicios",
   },
   {
-    label: "Sobre Nosotros",
+    label: "SOBRE NOSOTROS",
     route: "#sobre-nos",
   },
   {
-    label: "Contacto",
+    label: "CONTACTO",
     route: "#contacto",
   },
 ];
@@ -30,13 +30,8 @@ export default function Navbar() {
   return (
     <nav className={styles.navContainer}>
       <div className={styles.headContainer}>
-        <h1
-          style={{
-            fontWeight: "400",
-          }}
-        >
-          BRAND
-        </h1>
+        <h1 className={styles.headingOne}>nuevos </h1>
+        <h1 className={styles.headingTwo}> servicios</h1>
       </div>
       <div className={styles.linksContainer}>
         <nav>
@@ -52,6 +47,23 @@ export default function Navbar() {
             })}
           </ul>
         </nav>
+        <div className={styles.hambMenu}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6"
+            width={"50px"}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </div>
       </div>
     </nav>
   );

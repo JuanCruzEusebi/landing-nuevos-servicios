@@ -51,12 +51,16 @@ export default function Services() {
         position: "center",
         marginTop: "100px",
         paddingBottom: "100px",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
       }}
     >
       <div className={style.headContainer}>
         <h1 className={style.heading}>Nuestros Servicios</h1>
       </div>
-      <div>
+      <div style={{ maxWidth: "1400px" }}>
         <ServiceCard data={data} />
       </div>
     </div>
