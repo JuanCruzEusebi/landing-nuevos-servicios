@@ -1,10 +1,12 @@
 import styles from "./page.module.css";
+import ContactButton from "../contact/page";
 
 export default function Footer() {
   return (
     <div className={styles.mainContainer} id="contacto">
       <div className={styles.headingContainer}>
-        <h1>Nuevos Servicios</h1>
+        <h1 style={{ marginBottom: "40px" }}>Nuevos Servicios</h1>
+        <ContactButton />
       </div>
       <div className={styles.menuContainer}>
         <h1>Menu</h1>
@@ -30,7 +32,14 @@ export default function Footer() {
                 d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
               />
             </svg>
-            <li>Inicio</li>
+            <li href="/">
+              <a
+                href="#home"
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                Inicio
+              </a>
+            </li>
           </div>
           <div style={{ display: "flex" }}>
             <svg
@@ -50,7 +59,14 @@ export default function Footer() {
               />
             </svg>
 
-            <li>Servicios</li>
+            <li>
+              <a
+                href="#servicios"
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                Servicios
+              </a>
+            </li>
           </div>
           <div style={{ display: "flex" }}>
             <svg
@@ -70,7 +86,14 @@ export default function Footer() {
               />
             </svg>
 
-            <li>Sobre Nosotros</li>
+            <li>
+              <a
+                href="#sobre-nos"
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                Sobre Nosotros
+              </a>
+            </li>
           </div>
         </ul>
       </div>
@@ -94,7 +117,9 @@ export default function Footer() {
               />
             </svg>
 
-            <li>Email: juanirodriguez@nuevosservicios.com.ar</li>
+            <li style={{ display: "flex", flexWrap: "wrap" }}>
+              juanirodriguez@nuevosservicios.com.ar
+            </li>
           </div>
           <div style={{ display: "flex" }}>
             <svg
@@ -114,7 +139,7 @@ export default function Footer() {
               />
             </svg>
 
-            <li>Tel: 1150967779</li>
+            <li>1150967779</li>
           </div>
           <div style={{ display: "flex" }}>
             <svg
@@ -134,7 +159,7 @@ export default function Footer() {
               />
             </svg>
 
-            <li>Instagram: nuevos_servicios</li>
+            <li>nuevos_servicios</li>
           </div>
         </ul>
       </div>

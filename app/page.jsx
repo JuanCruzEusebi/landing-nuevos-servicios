@@ -13,7 +13,7 @@ const fontTwo = Ubuntu({
 
 export default function Home() {
   return (
-    <section className={styles.bodyContainer}>
+    <section className={styles.bodyContainer} id="home">
       <div className={styles.mainContainer}>
         <h1 className={styles.heading}>SERVICIOS DE LIMPIEZA</h1>
         <p
@@ -22,13 +22,18 @@ export default function Home() {
             color: "#163583",
             fontSize: "1.2em",
             textAlign: "center",
+            letterSpacing: "2px",
+            fontWeight: "400",
             textTransform: "uppercase",
+            fontStyle: "oblique",
           }}
         >
           Mantenimiento integral de oficinas, clincias, locales comerciales e
           industrias
         </p>
-        <button className={styles.mainButton}>PEDI HOY TU PRESUPUESTO!</button>
+        <button className={styles.mainButton} id="contactButton">
+          PEDI HOY TU PRESUPUESTO!
+        </button>
       </div>
     </section>
   );

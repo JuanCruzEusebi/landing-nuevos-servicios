@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import AboutUs from "./aboutUs/page";
 import Services from "./services/page";
 import Footer from "./footer/page";
-import ContactPage from "./contact/page";
 
 export const metadata = {
   title: "Create Next App",
@@ -23,7 +22,6 @@ export default function RootLayout({ children }) {
         <Services />
         <footer>
           <Footer></Footer>
-          <ContactPage></ContactPage>
         </footer>
       </body>
     </html>

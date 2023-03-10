@@ -31,7 +31,7 @@ const data = [
     image: pintura.src,
   },
   {
-    title: "ALFOMBRAS Y TAPIZADOS",
+    title: "OBRAS Y REFORMAS",
     image: alfombras.src,
   },
   {

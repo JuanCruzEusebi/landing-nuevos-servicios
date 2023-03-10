@@ -29,5 +29,23 @@ export default function ContactButton() {
     };
   }, [router]);
 
-  return <button id="contactButton">Contact Owner</button>;
+  return (
+    <button
+      id="contactButton"
+      style={{
+        backgroundColor: "#27BD2D",
+        color: "white",
+        border: "none",
+        width: "auto",
+        padding: "10px 30px 10px 30px",
+        // marginLeft: "30px",
+        fontSize: "0.8em",
+        borderRadius: "5px",
+        cursor: "pointer",
+        boxSizing: "border-box",
+      }}
+    >
+      Contactanos!
+    </button>
+  );
 }

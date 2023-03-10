@@ -1,6 +1,8 @@
+"use client";
 // import Link from "next/link";
 import { Ubuntu } from "next/font/google";
 import styles from "./navbar.module.css";
+import { useState } from "react";
 
 const fontTwo = Ubuntu({
   subsets: ["latin"],
@@ -27,6 +29,7 @@ const links = [
 ];
 
 export default function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav className={styles.navContainer}>
       <div className={styles.headContainer}>
@@ -47,7 +50,10 @@ export default function Navbar() {
             })}
           </ul>
         </nav>
-        <div className={styles.hambMenu}>
+        <div
+          className={`${styles.hambMenu} ${menuOpen ? styles.close : ""}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -55,14 +61,44 @@ export default function Navbar() {
             strokeWidth={1.5}
             stroke="currentColor"
             className="w-6 h-6"
-            width={"50px"}
+            width={"35px"}
           >
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              d={
+                menuOpen
+                  ? "M3 3L21 21M3 21l18-18"
+                  : "M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              }
             />
           </svg>
+        </div>
+        <div
+          style={{
+            backgroundColor: "#163583",
+            marginTop: "20px",
+            transition: "2s",
+          }}
+          className={`${styles.mobileMenu} ${menuOpen ? styles.show : ""}`}
+        >
+          <ul className={styles.mobileLinks}>
+            {" "}
+            {links.map(({ label, route }) => {
+              return (
+                <li key={route}>
+                  <a
+                    as={route}
+                    className={styles.linkTag}
+                    style={{ color: "white" }}
+                    href={route}
+                  >
+                    {label}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </div>
     </nav>
