@@ -9,14 +9,14 @@
 }   
 
 .card {
-    width: 250px;
-    height: 280px;
-    margin: 30px;
+    width: 270px;
+    height: 350px;
+    margin: 7px;
     display: flex;
     flex-direction: column;
     background-size: cover;
     opacity: 0.9;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .card:hover {
