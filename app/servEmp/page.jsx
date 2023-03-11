@@ -7,7 +7,7 @@ import pintura from "../../public/imgs/pintura.jpg";
 import alfombras from "../../public/imgs/tapizados.jpg";
 import pisos from "../../public/imgs/piso.jpg";
 import ServiceCard from "./ServiceCard";
-import style from "../servEmp/newServCard.module.css";
+import style from "../servEmp/page.module.css";
 
 const data = [
   {
@@ -38,27 +38,6 @@ const data = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
     route: "final-de-obra",
   },
-  {
-    title: "PINTURA",
-    image: pintura.src,
-    about:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
-    route: "pintura",
-  },
-  {
-    title: "OBRAS Y REFORMAS",
-    image: alfombras.src,
-    about:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
-    route: "obras-reformas",
-  },
-  {
-    title: "TRATAMIENTOS DE PISOS",
-    image: pisos.src,
-    about:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
-    route: "pisos",
-  },
 ];
 
 export default function newServ() {
@@ -67,16 +46,17 @@ export default function newServ() {
       id="servEmp"
       style={{
         // backgroundImage: `url(${bg.src})`,
+        backgroundColor: "#163583",
         backgroundSize: "cover",
         height: "100%",
         position: "center",
-        marginTop: "100px",
+        marginTop: "70px",
         paddingBottom: "100px",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        margin: "35px 0px 35px 0px",
+        padding: "50px 20px 50px 20px",
       }}
     >
       <div className={style.headContainer}>

@@ -16,12 +16,12 @@
     flex-direction: column;
     background-size: cover;
     opacity: 0.9;
-    /* border-radius: 5px; */
+    transition: 0.7s;
 }
-
 
 .card:hover {
     opacity: 1;
+    /* width: 40vw; */
 }
 
 
@@ -55,21 +55,27 @@
     background-color: rgba(0, 0, 0, 0.619);
     text-align: center;
     padding: 20px;
+    height: 30%;
     margin: 0;
-    height: 50%;
+    overflow: hidden;
     transition: ease-in;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
+
+
 .para:hover {
-    height: 750px;
+    height: 850em;    
     transition: ease-in;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 1.1em;
-    font-weight: bolder;
+    align-items: flex-start;
+    font-size: 0.9em;
+    font-weight: 200;
     transition: 0.3s;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.850);
+
 }
 
 @media (max-width: 600px) {

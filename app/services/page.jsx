@@ -11,18 +11,6 @@ import style from "../services/main.module.css";
 
 const data = [
   {
-    title: "VIDRIOS",
-    image: vidrios.src,
-  },
-  {
-    title: "Desinfeccion",
-    image: desinfeccion.src,
-  },
-  {
-    title: "CONTROL DE PLAGAs",
-    image: control.src,
-  },
-  {
     title: "FINAL DE OBRA",
     image: final.src,
   },
@@ -46,16 +34,15 @@ export default function Services() {
       id="servicios"
       style={{
         // backgroundImage: `url(${bg.src})`,
+        backgroundColor: "whitesmoke",
         backgroundSize: "cover",
         height: "100%",
         position: "center",
-        marginTop: "100px",
-        paddingBottom: "100px",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        margin: "35px 0px 35px 0px",
+        padding: "50px 20px 60px 20px",
       }}
     >
       <div className={style.headContainer}>

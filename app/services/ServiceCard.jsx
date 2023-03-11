@@ -12,7 +12,7 @@ export default function ServiceCard({ data }) {
           >
             {/* <img src={item.image} alt="img" as={index} className={style.img} /> */}
             <h1 className={style.heading}> {item.title}</h1>
-            <p className={style.para}>{item.title}</p>
+            <h2 className={style.para}>{item.title} </h2>
           </div>
         );
       })}

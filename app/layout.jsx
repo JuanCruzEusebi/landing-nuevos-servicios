@@ -1,9 +1,9 @@
-import "./globals.css";
 import Navbar from "./components/Navbar";
 import AboutUs from "./aboutUs/page";
 import Footer from "./footer/page";
 import Services from "./services/page";
 import ServEmp from "./servEmp/page";
+import "./globals.css";
 
 export const metadata = {
   title: "Create Next App",

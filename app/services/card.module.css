@@ -58,14 +58,15 @@
     height: 50%;
     transition: ease-in;
     transition: 0.3s;
+
 }
 
 .para:hover {
-    height: 750px;
+    height: 70%;    
     transition: ease-in;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     font-size: 1.1em;
     font-weight: bolder;
     transition: 0.3s;

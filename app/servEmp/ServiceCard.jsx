@@ -6,14 +6,29 @@ export default function ServiceCard({ data }) {
     <div className={style.mainContainer}>
       {data.map((item, index) => {
         return (
-          <Link href={`servEmp/[id]`} as={`servEmp/${item.route}`}>
+          <Link
+            style={{ color: "white", textDecoration: "none" }}
+            data={item}
+            href={`servEmp/[id]`}
+            as={`servEmp/${item.route}`}
+            key={item.heading}
+          >
             <div
               key={index}
               className={style.card}
               style={{ backgroundImage: `url(${item.image})` }}
             >
               <h1 className={style.heading}> {item.title}</h1>
-              <p className={style.para}>{item.title}</p>
+              <p className={style.para}>
+                {item.title} <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                corporis corrupti dignissimos autem ab deserunt voluptatibus eum
+                architecto natus voluptate.{" "}
+              </p>
             </div>
           </Link>
         );

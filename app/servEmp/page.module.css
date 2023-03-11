@@ -3,12 +3,12 @@
 
 
 .heading {
-    color: #163583;
-    /* color: white; */
+    /* color: #163583; */
+    color: white; 
     font-family: 'Ubuntu';
     text-align: center;
     font-size: 2.6em;
     font-weight: 400;
     margin-bottom: 70px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
