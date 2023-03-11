@@ -24,7 +24,7 @@ export default function Footer() {
               stroke="currentColor"
               className="w-6 h-6"
               width={"20px"}
-              style={{ paddingRight: "10px" }}
+              style={{ paddingRight: "0px" }}
             >
               <path
                 strokeLinecap="round"
@@ -50,7 +50,7 @@ export default function Footer() {
               stroke="currentColor"
               className="w-6 h-6"
               width={"20px"}
-              style={{ paddingRight: "10px" }}
+              style={{ paddingRight: "0px" }}
             >
               <path
                 strokeLinecap="round"
@@ -77,7 +77,7 @@ export default function Footer() {
               stroke="currentColor"
               className="w-6 h-6"
               width={"20px"}
-              style={{ paddingRight: "10px" }}
+              style={{ paddingRight: "0px" }}
             >
               <path
                 strokeLinecap="round"
@@ -109,7 +109,7 @@ export default function Footer() {
               stroke="currentColor"
               className="w-6 h-6"
               width={"20px"}
-              style={{ paddingRight: "10px" }}
+              style={{ paddingRight: "0px" }}
             >
               <path
                 strokeLinecap="round"
@@ -130,7 +130,7 @@ export default function Footer() {
               stroke="currentColor"
               className="w-6 h-6"
               width={"20px"}
-              style={{ paddingRight: "10px" }}
+              style={{ paddingRight: "0px" }}
             >
               <path
                 strokeLinecap="round"
@@ -150,7 +150,7 @@ export default function Footer() {
               stroke="currentColor"
               className="w-6 h-6"
               width={"20px"}
-              style={{ paddingRight: "10px" }}
+              style={{ paddingRight: "0px" }}
             >
               <path
                 strokeLinecap="round"

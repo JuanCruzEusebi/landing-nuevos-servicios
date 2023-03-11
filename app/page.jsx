@@ -1,5 +1,6 @@
 import { Work_Sans, Ubuntu } from "next/font/google";
 import styles from "./page.module.css";
+// import Link from "next/link";
 
 const font = Work_Sans({
   subsets: ["latin"],
@@ -31,9 +32,14 @@ export default function Home() {
           Mantenimiento integral de oficinas, clincias, locales comerciales e
           industrias
         </p>
-        <button className={styles.mainButton} id="contactButton">
-          PEDI HOY TU PRESUPUESTO!
-        </button>
+        <div className={styles.buttonContainer}>
+          <button className={styles.mainButton}>
+            <a href="#servicios">Servicios en Domicilio</a>
+          </button>
+          <button className={styles.mainButton}>
+            <a href="#servicios-empresariales">Servicios Empresariales</a>
+          </button>
+        </div>
       </div>
     </section>
   );

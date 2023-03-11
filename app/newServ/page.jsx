@@ -1,5 +1,4 @@
-import ServiceCard from "./ServiceCard";
-import bg from "../../public/imgs/livingRom.jpg";
+import bg from "../../public/imgs/office.jpg";
 import vidrios from "../../public/imgs/vidrios.jpg";
 import desinfeccion from "../../public/imgs/desinfeccion.jpg";
 import control from "../../public/imgs/fumigacion.jpg";
@@ -7,7 +6,8 @@ import final from "../../public/imgs/finaldeobra.jpg";
 import pintura from "../../public/imgs/pintura.jpg";
 import alfombras from "../../public/imgs/tapizados.jpg";
 import pisos from "../../public/imgs/piso.jpg";
-import style from "../services/main.module.css";
+import style from "../newServ/page.module.css";
+import ServiceCard from "./newServCard";
 
 const data = [
   {
@@ -40,10 +40,10 @@ const data = [
   },
 ];
 
-export default function Services() {
+export default function newServ() {
   return (
     <div
-      id="servicios"
+      id="servicios-empresariales"
       style={{
         // backgroundImage: `url(${bg.src})`,
         backgroundSize: "cover",
@@ -59,7 +59,7 @@ export default function Services() {
       }}
     >
       <div className={style.headContainer}>
-        <h1 className={style.heading}>Servicios en Domcilio</h1>
+        <h1 className={style.heading}>Servicios Empresariales</h1>
       </div>
       <div style={{ maxWidth: "1400px" }}>
         <ServiceCard data={data} />

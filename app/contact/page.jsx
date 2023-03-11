@@ -37,7 +37,7 @@ export default function ContactButton() {
         color: "white",
         border: "none",
         width: "auto",
-        padding: "10px 30px 10px 30px",
+        padding: "15px 35px 15px 35px",
         // marginLeft: "30px",
         fontSize: "0.8em",
         borderRadius: "5px",
