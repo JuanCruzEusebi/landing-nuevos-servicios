@@ -37,7 +37,7 @@ export default function Home() {
             <a href="#servicios">Servicios en Domicilio</a>
           </button>
           <button className={styles.mainButton}>
-            <a href="#servicios-empresariales">Servicios Empresariales</a>
+            <a href="#servEmp">Servicios Empresariales</a>
           </button>
         </div>
       </div>

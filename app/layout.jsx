@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import AboutUs from "./aboutUs/page";
 import Footer from "./footer/page";
 import Services from "./services/page";
-import NewServ from "./newServ/page";
+import ServEmp from "./servEmp/page";
 
 export const metadata = {
   title: "Create Next App",
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         {children}
         <AboutUs />
         <Services />
-        <NewServ></NewServ>
+        <ServEmp></ServEmp>
         <footer>
           <Footer></Footer>
         </footer>

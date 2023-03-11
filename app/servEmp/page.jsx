@@ -6,44 +6,65 @@ import final from "../../public/imgs/finaldeobra.jpg";
 import pintura from "../../public/imgs/pintura.jpg";
 import alfombras from "../../public/imgs/tapizados.jpg";
 import pisos from "../../public/imgs/piso.jpg";
-import style from "../newServ/page.module.css";
-import ServiceCard from "./newServCard";
+import ServiceCard from "./ServiceCard";
+import style from "../servEmp/newServCard.module.css";
 
 const data = [
   {
     title: "VIDRIOS",
     image: vidrios.src,
+    about:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
+    route: "vidrios",
   },
   {
     title: "Desinfeccion",
     image: desinfeccion.src,
+    about:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
+    route: "desinfeccion",
   },
   {
     title: "CONTROL DE PLAGAs",
     image: control.src,
+    about:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
+    route: "control-de-plagas",
   },
   {
     title: "FINAL DE OBRA",
     image: final.src,
+    about:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
+    route: "final-de-obra",
   },
   {
     title: "PINTURA",
     image: pintura.src,
+    about:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
+    route: "pintura",
   },
   {
     title: "OBRAS Y REFORMAS",
     image: alfombras.src,
+    about:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
+    route: "obras-reformas",
   },
   {
     title: "TRATAMIENTOS DE PISOS",
     image: pisos.src,
+    about:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
+    route: "pisos",
   },
 ];
 
 export default function newServ() {
   return (
     <div
-      id="servicios-empresariales"
+      id="servEmp"
       style={{
         // backgroundImage: `url(${bg.src})`,
         backgroundSize: "cover",
