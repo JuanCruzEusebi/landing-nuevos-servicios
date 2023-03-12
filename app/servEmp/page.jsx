@@ -50,7 +50,6 @@ export default function newServ() {
         backgroundSize: "cover",
         height: "100%",
         position: "center",
-        marginTop: "70px",
         paddingBottom: "100px",
         display: "flex",
         flexDirection: "column",

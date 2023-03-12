@@ -1,6 +1,5 @@
 import { Work_Sans, Ubuntu } from "next/font/google";
 import styles from "./page.module.css";
-// import Link from "next/link";
 
 const font = Work_Sans({
   subsets: ["latin"],

@@ -30,22 +30,43 @@ export default function ContactButton() {
   }, [router]);
 
   return (
-    <button
-      id="contactButton"
-      style={{
-        backgroundColor: "#27BD2D",
-        color: "white",
-        border: "none",
-        width: "auto",
-        padding: "15px 35px 15px 35px",
-        // marginLeft: "30px",
-        fontSize: "0.8em",
-        borderRadius: "5px",
-        cursor: "pointer",
-        boxSizing: "border-box",
-      }}
-    >
-      Contactanos!
-    </button>
+    <div style={{ display: "flex", flexDirection: "column" }}>
+      <a
+        style={{
+          backgroundColor: "#27BD2D",
+          color: "white",
+          border: "none",
+          width: "auto",
+          padding: "10px 15px 10px 15px",
+          fontSize: "1em",
+          borderRadius: "5px",
+          cursor: "pointer",
+          boxSizing: "border-box",
+          textDecoration: "none",
+          fontFamily: "Raleway",
+          marginBottom: "20px",
+        }}
+        href="https://api.whatsapp.com/send?phone=1557988972&text=Hola%20!"
+      >
+        Contactanos via WhatsApp
+      </a>
+      <button
+        id="contactButton"
+        style={{
+          backgroundColor: "#27BD2D",
+          color: "white",
+          border: "none",
+          width: "auto",
+          padding: "10px 15px 10px 15px",
+          fontSize: "1.05em",
+          borderRadius: "5px",
+          cursor: "pointer",
+          boxSizing: "border-box",
+          fontFamily: "Raleway",
+        }}
+      >
+        Contactanos via mail
+      </button>
+    </div>
   );
 }
