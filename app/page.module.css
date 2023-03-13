@@ -51,8 +51,11 @@
     cursor: pointer;
     margin: 20px;
     opacity: 0.9;
+    border-radius: 20px;
 
 }
+
+
 
 .mainButton > a {
     color: white;

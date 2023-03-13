@@ -21,9 +21,8 @@ export default function ServiceCard({ data }) {
           <Link
             style={{ color: "white", textDecoration: "none" }}
             data={item}
-            // href={`servEmp/[id]`} ------------> esta es la ruta
-            // as={`servEmp/${item.route}`}
-            href={""}
+            href={`servEmp/[id]`}
+            as={`servEmp/${item.route}`}
             key={item.heading}
           >
             <div
