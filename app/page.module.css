@@ -22,9 +22,7 @@
     text-align: center;
 }
 
-.mainButton:hover {
-    opacity: 1;
-}
+
 
 .heading {
     color: #163583;
@@ -52,17 +50,19 @@
     letter-spacing: 2px;
     cursor: pointer;
     margin: 20px;
+    opacity: 0.9;
+
 }
 
 .mainButton > a {
     color: white;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-
 }
 
+
 .buttonContainer > button:hover {
-    opacity: 0.7;
+    opacity: 1;
 }
 
 

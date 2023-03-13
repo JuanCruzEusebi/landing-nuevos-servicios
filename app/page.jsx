@@ -28,7 +28,7 @@ export default function Home() {
             fontStyle: "oblique",
           }}
         >
-          Mantenimiento integral de oficinas, clincias, locales comerciales e
+          Mantenimiento integral de oficinas, Clínicas , locales comerciales e
           industrias
         </p>
         <div className={styles.buttonContainer}>

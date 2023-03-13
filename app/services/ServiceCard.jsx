@@ -39,10 +39,9 @@ export default function ServiceCard({ data }) {
                 <br />
                 <br />
                 <br />
-                <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                corporis corrupti dignissimos autem ab deserunt voluptatibus eum
-                architecto natus voluptate.{" "}
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+                esse voluptates fugiat iure corrupti quia corporis excepturi
+                dolore nisi, veritatis, quo asperiores. Eos, qui est?
               </p>
             </div>
           </Link>

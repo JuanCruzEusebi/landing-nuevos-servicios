@@ -39,10 +39,10 @@ export default function ServiceCard({ data }) {
                 <br />
                 <br />
                 <br />
-                <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                corporis corrupti dignissimos autem ab deserunt voluptatibus eum
-                architecto natus voluptate.{" "}
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Reiciendis necessitatibus eum officia et numquam consequatur
+                deleniti, ea porro mollitia. Voluptatum ab modi deleniti neque
+                placeat.
               </p>
             </div>
           </Link>

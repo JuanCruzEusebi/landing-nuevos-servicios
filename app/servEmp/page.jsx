@@ -18,7 +18,7 @@ const data = [
     route: "vidrios",
   },
   {
-    title: "Desinfeccion",
+    title: "DESINFECCIÓN",
     image: desinfeccion.src,
     about:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",

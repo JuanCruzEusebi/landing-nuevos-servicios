@@ -11,10 +11,10 @@ export default function AboutUs() {
       <div className={style.infoContainer}>
         <p className={style.paragraph}>
           Somos una empresa con más de 10 años de experiencia brindando
-          multiples servicios y mantenimientos generales a una gran cartera de
+          múltiples servicios y mantenimientos generales a una gran cartera de
           clientes. Cada servicio cuenta con un programa de trabajo diseñado a
           medida, en el cual se detallan las rutinas del personal, los productos
-          y la maquinaria a utilizar.
+          y la maquinaria a utilizar.
         </p>
       </div>
     </section>
