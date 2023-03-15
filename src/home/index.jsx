@@ -2,8 +2,8 @@ import Header from "../header";
 import AboutUs from "../aboutUs";
 import Footer from "../footer";
 import ServicesDisplay from './components/servicesDisplay'
-import PersonServices from "../personServices";
-import BuisnessServices from "../buisnessServices";
+import PersonServices from "./components/personServices";
+import BuisnessServices from "./components/buisnessServices";
 import "./home.css";
 
 export const metadata = {
