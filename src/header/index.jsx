@@ -3,6 +3,7 @@
 import { Ubuntu } from "next/font/google";
 import styles from "./header.module.css";
 import { useState } from "react";
+// import bg from "../../public/imgs/piso.jpg";
 
 const fontTwo = Ubuntu({
   subsets: ["latin"],
@@ -11,19 +12,19 @@ const fontTwo = Ubuntu({
 
 const links = [
   {
-    label: "INICIO",
+    label: "Inicio",
     route: "/",
   },
   {
-    label: "SERVICIOS",
+    label: "Servicios",
     route: "#servicios",
   },
   {
-    label: "SOBRE NOSOTROS",
+    label: "Sobre Nosotros",
     route: "#sobre-nos",
   },
   {
-    label: "CONTACTO",
+    label: "Contacto",
     route: "#contacto",
   },
 ];
@@ -31,7 +32,10 @@ const links = [
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav className={styles.navContainer}>
+    <nav
+      className={styles.navContainer}
+      // style={{ backgroundImage: `url(${bg.src})` }}
+    >
       <div className={styles.headContainer}>
         <h1 className={styles.headingOne}>nuevos </h1>
         <h1 className={styles.headingTwo}> servicios</h1>

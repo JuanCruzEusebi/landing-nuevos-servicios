@@ -1,7 +1,7 @@
 import Header from "../header";
 import AboutUs from "../aboutUs";
 import Footer from "../footer";
-import ServicesDisplay from './components/servicesDisplay'
+import ServicesDisplay from "./components/servicesDisplay";
 import PersonServices from "./components/personServices";
 import BuisnessServices from "./components/buisnessServices";
 import "./home.css";
@@ -20,9 +20,9 @@ export default function Home() {
       <body>
         <Header />
         <ServicesDisplay />
+        <AboutUs />
         <PersonServices />
         <BuisnessServices />
-        <AboutUs />
         <footer>
           <Footer></Footer>
         </footer>

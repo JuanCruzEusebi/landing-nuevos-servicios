@@ -20,24 +20,22 @@ export default function ServicesDisplay() {
           className={fontTwo.className}
           style={{
             color: "#163583",
-            fontSize: "1.2em",
+            fontSize: "1.3em",
             textAlign: "center",
             letterSpacing: "2px",
             fontWeight: "400",
-            textTransform: "uppercase",
-            fontStyle: "oblique",
           }}
         >
           Mantenimiento integral de oficinas, Clínicas , locales comerciales e
           industrias
         </p>
         <div className={styles.buttonContainer}>
-          <button className={styles.mainButton}>
-            <a href="#servicios">Servicios en Domicilio</a>
-          </button>
-          <button className={styles.mainButton}>
-            <a href="#servEmp">Servicios Empresariales</a>
-          </button>
+          {/* <button className={styles.mainButton}> */}
+          <a href="#servicios">Servicios en Domicilio</a>
+          {/* </button> */}
+          {/* <button className={styles.mainButton}> */}
+          <a href="#servEmp">Servicios Empresariales</a>
+          {/* </button> */}
         </div>
       </div>
     </section>

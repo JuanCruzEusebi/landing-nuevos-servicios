@@ -21,8 +21,8 @@ export default function BuisnessServiceCard({ data }) {
           <Link
             style={{ color: "white", textDecoration: "none" }}
             data={item}
-            href={`servEmp/[id]`}
-            as={`servEmp/${item.route}`}
+            href={`buisness-services/${item.route}`}
+            as={`buisness-services/${item.route}`}
             key={item.heading}
           >
             <div
@@ -38,10 +38,7 @@ export default function BuisnessServiceCard({ data }) {
                 <br />
                 <br />
                 <br />
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Reiciendis necessitatibus eum officia et numquam consequatur
-                deleniti, ea porro mollitia. Voluptatum ab modi deleniti neque
-                placeat.
+                {item.about}
               </p>
             </div>
           </Link>

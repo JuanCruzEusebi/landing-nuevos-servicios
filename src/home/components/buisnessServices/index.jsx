@@ -1,11 +1,7 @@
-import bg from "../../../../public/imgs/office.jpg";
 import vidrios from "../../../../public/imgs/vidrios.jpg";
 import desinfeccion from "../../../../public/imgs/desinfeccion.jpg";
 import control from "../../../../public/imgs/fumigacion.jpg";
 import final from "../../../../public/imgs/finaldeobra.jpg";
-import pintura from "../../../../public/imgs/pintura.jpg";
-import alfombras from "../../../../public/imgs/tapizados.jpg";
-import pisos from "../../../../public/imgs/piso.jpg";
 import ServiceCard from "./components/buisnessServiceCard";
 import style from "../buisnessServices/buisnessService.module.css";
 
@@ -16,6 +12,7 @@ const data = [
     about:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
     route: "vidrios",
+    id: 1,
   },
   {
     title: "DESINFECCIÓN",
@@ -23,6 +20,7 @@ const data = [
     about:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
     route: "desinfeccion",
+    id: 2,
   },
   {
     title: "CONTROL DE PLAGAs",
@@ -30,6 +28,7 @@ const data = [
     about:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
     route: "control-de-plagas",
+    id: 3,
   },
   {
     title: "FINAL DE OBRA",
@@ -37,6 +36,7 @@ const data = [
     about:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
     route: "final-de-obra",
+    id: 4,
   },
 ];
 

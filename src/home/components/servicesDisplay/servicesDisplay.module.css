@@ -12,7 +12,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&family=Domine&family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Inter:wght@200;300;400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,500;1,600&family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500&display=swap');
 
 .mainContainer {
-    height: 100vh;
+    height: 88vh;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -40,19 +40,25 @@
     width: auto;
 }
 
-.buttonContainer > button {
-    background-color: #163583;    
+.buttonContainer > a {
+    /* background-color: #163583;     */
     width: 300px;
     border: none;
     height: 45px;
-    margin-top: 15px;
-    font-size: 1em;
+    margin-top: 65px;
+    font-size: 1.2em;
     letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
     cursor: pointer;
     margin: 20px;
-    opacity: 0.9;
     border-radius: 20px;
-
+    color: #163583;
+    /* border-bottom: 2px solid #163583; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out;
 }
 
 
@@ -64,8 +70,9 @@
 }
 
 
-.buttonContainer > button:hover {
+.buttonContainer > a:hover {
     opacity: 1;
+
 }
 
 
