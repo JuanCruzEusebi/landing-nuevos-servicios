@@ -30,12 +30,12 @@ export default function ServicesDisplay() {
           industrias
         </p>
         <div className={styles.buttonContainer}>
-          {/* <button className={styles.mainButton}> */}
-          <a href="#servicios">Servicios en Domicilio</a>
-          {/* </button> */}
-          {/* <button className={styles.mainButton}> */}
-          <a href="#servEmp">Servicios Empresariales</a>
-          {/* </button> */}
+          <button className={styles.mainButton}>
+            <a href="#servicios">Servicios en Domicilio</a>
+          </button>
+          <button className={styles.mainButton}>
+            <a href="#servEmp">Servicios Empresariales</a>
+          </button>
         </div>
       </div>
     </section>

@@ -32,10 +32,7 @@ const links = [
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav
-      className={styles.navContainer}
-      // style={{ backgroundImage: `url(${bg.src})` }}
-    >
+    <nav className={styles.navContainer}>
       <div className={styles.headContainer}>
         <h1 className={styles.headingOne}>nuevos </h1>
         <h1 className={styles.headingTwo}> servicios</h1>
@@ -65,7 +62,8 @@ export default function Header() {
             strokeWidth={1.5}
             stroke="currentColor"
             className="w-6 h-6"
-            width={"35px"}
+            width={"30px"}
+            color={"white"}
           >
             <path
               strokeLinecap="round"

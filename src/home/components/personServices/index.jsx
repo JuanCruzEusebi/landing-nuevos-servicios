@@ -13,18 +13,22 @@ const data = [
   {
     title: "FINAL DE OBRA",
     image: final.src,
+    id: 7,
   },
   {
     title: "PINTURA",
     image: pintura.src,
+    id: 8,
   },
   {
     title: "OBRAS Y REFORMAS",
     image: alfombras.src,
+    id: 9,
   },
   {
     title: "TRATAMIENTOS DE PISOS",
     image: pisos.src,
+    id: 10,
   },
 ];
 

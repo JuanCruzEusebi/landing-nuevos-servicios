@@ -23,7 +23,7 @@ export default function BuisnessServiceCard({ data }) {
             data={item}
             href={`buisness-services/${item.route}`}
             as={`buisness-services/${item.route}`}
-            key={item.heading}
+            key={item.id}
           >
             <div
               key={index}
