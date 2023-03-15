@@ -1,7 +1,7 @@
 "use client";
 // import Link from "next/link";
 import { Ubuntu } from "next/font/google";
-import styles from "./navbar.module.css";
+import styles from "./header.module.css";
 import { useState } from "react";
 
 const fontTwo = Ubuntu({
@@ -28,7 +28,7 @@ const links = [
   },
 ];
 
-export default function Navbar() {
+export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav className={styles.navContainer}>

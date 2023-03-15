@@ -1,8 +1,8 @@
 "use client";
-import style from "../services/card.module.css";
+import style from "./personServiceCard.module.css";
 import Link from "next/link";
 
-export default function ServiceCard({ data }) {
+export default function PersonServiceCard({ data }) {
   function handleCardHover(e) {
     const para = e.currentTarget.querySelector(`.${style.para}`);
     para.style.height = "850em";

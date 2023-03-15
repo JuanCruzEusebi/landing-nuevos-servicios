@@ -1,8 +1,8 @@
 "use client";
-import style from "../servEmp/newServCard.module.css";
+import style from "./buisnessServiceCard.module.css";
 import Link from "next/link";
 
-export default function ServiceCard({ data }) {
+export default function BuisnessServiceCard({ data }) {
   function handleCardHover(e) {
     const para = e.currentTarget.querySelector(`.${style.para}`);
     para.style.height = "850em";

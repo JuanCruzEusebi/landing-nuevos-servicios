@@ -1,5 +1,5 @@
-import styles from "./page.module.css";
-import ContactButton from "../contact/page";
+import styles from "./footer.module.css";
+import ContactButton from "../contact";
 
 export default function Footer() {
   return (

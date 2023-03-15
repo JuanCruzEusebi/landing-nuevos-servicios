@@ -1,4 +1,4 @@
-import ServiceCard from "./ServiceCard";
+import PersonServiceCard from "./components/personServiceCard";
 import bg from "../../public/imgs/livingRom.jpg";
 import vidrios from "../../public/imgs/vidrios.jpg";
 import desinfeccion from "../../public/imgs/desinfeccion.jpg";
@@ -7,7 +7,7 @@ import final from "../../public/imgs/finaldeobra.jpg";
 import pintura from "../../public/imgs/pintura.jpg";
 import alfombras from "../../public/imgs/tapizados.jpg";
 import pisos from "../../public/imgs/piso.jpg";
-import style from "../services/main.module.css";
+import style from "./personServices.module.css";
 
 const data = [
   {
@@ -28,7 +28,7 @@ const data = [
   },
 ];
 
-export default function Services() {
+export default function PersonServices() {
   return (
     <div
       id="servicios"
@@ -49,7 +49,7 @@ export default function Services() {
         <h1 className={style.heading}>Servicios en Domcilio</h1>
       </div>
       <div style={{ maxWidth: "1400px" }}>
-        <ServiceCard data={data} />
+        <PersonServiceCard data={data} />
       </div>
     </div>
   );

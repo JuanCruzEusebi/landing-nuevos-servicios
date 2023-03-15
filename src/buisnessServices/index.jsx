@@ -6,8 +6,8 @@ import final from "../../public/imgs/finaldeobra.jpg";
 import pintura from "../../public/imgs/pintura.jpg";
 import alfombras from "../../public/imgs/tapizados.jpg";
 import pisos from "../../public/imgs/piso.jpg";
-import ServiceCard from "./ServiceCard";
-import style from "../servEmp/page.module.css";
+import ServiceCard from "./components/buisnessServiceCard";
+import style from "../buisnessServices/buisnessService.module.css";
 
 const data = [
   {
