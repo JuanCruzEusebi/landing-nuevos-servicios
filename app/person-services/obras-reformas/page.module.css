@@ -27,13 +27,5 @@
  padding: 40px;
  flex: 1;
  margin: auto;
- text-align: center; 
+ text-align: center;
 }
-
-@media (max-width: 800px) {
-    .mainContainer{
-        display: flex;
-        flex-direction: column-reverse;
-        background-color: whitesmoke;
-    }
-  }

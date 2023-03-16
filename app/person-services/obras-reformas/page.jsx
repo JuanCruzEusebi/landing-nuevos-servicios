@@ -4,20 +4,16 @@ import style from "./page.module.css";
 import Image from "next/image";
 import PersonServices from "../../../src/home/components/personServices";
 import BuisnessServices from "../../../src/home/components/buisnessServices";
-import bg from "../../../public/imgs/service.jpg";
 
-export default function Vidrios() {
+export default function Obras() {
   return (
     <section>
       <div>
         <Header />
       </div>
-      <article
-        className={style.mainContainer}
-        // style={{ backgroundImage: `url(${bg.src})` }}
-      >
+      <article className={style.mainContainer}>
         <div className={style.descriptionContainer}>
-          <h1>Vidrios</h1>
+          <h1>Obras y Reformas</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus velit
             quia debitis reprehenderit odio asperiores tempore officia! Eligendi
@@ -46,9 +42,8 @@ export default function Vidrios() {
           />
         </div>
       </article>
-      <BuisnessServices></BuisnessServices>
-
       <PersonServices></PersonServices>
+      <BuisnessServices></BuisnessServices>
       <div>
         <Footer></Footer>
       </div>

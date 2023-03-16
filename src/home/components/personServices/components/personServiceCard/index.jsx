@@ -21,9 +21,8 @@ export default function PersonServiceCard({ data }) {
           <Link
             style={{ color: "white", textDecoration: "none" }}
             data={item}
-            // href={`servEmp/[id]`} ----------> esta es la ruta
-            // as={`servEmp/${item.route}`}
-            href={""}
+            href={`person-services/${item.route}`}
+            as={`person-services/${item.route}`}
             key={item.id}
           >
             <div

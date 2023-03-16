@@ -1,7 +1,9 @@
-import Header from "@/src/headerapp";
-import Footer from "@/src/footerapp";
 import style from "../vidrios/page.module.css";
 import Image from "next/image";
+import Header from "@/src/headerapp";
+import Footer from "@/src/footerapp";
+import PersonServices from "../../../src/home/components/personServices";
+import BuisnessServices from "../../../src/home/components/buisnessServices";
 
 export default function Desinfeccion() {
   return (
@@ -40,6 +42,9 @@ export default function Desinfeccion() {
           />
         </div>
       </article>
+      <BuisnessServices></BuisnessServices>
+
+      <PersonServices></PersonServices>
       <div>
         <Footer></Footer>
       </div>

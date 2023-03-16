@@ -37,14 +37,15 @@ export default function ContactButton() {
           color: "white",
           border: "none",
           width: "auto",
-          padding: "10px 15px 10px 15px",
-          fontSize: "1em",
+          padding: "7px 12px 7px 12px",
+          fontSize: "0.7em",
           borderRadius: "5px",
           cursor: "pointer",
           boxSizing: "border-box",
           textDecoration: "none",
           fontFamily: "Raleway",
           marginBottom: "20px",
+          textAlign: "center",
         }}
         href="https://api.whatsapp.com/send?phone=1557988972&text=Hola%20!"
       >
@@ -57,8 +58,8 @@ export default function ContactButton() {
           color: "white",
           border: "none",
           width: "auto",
-          padding: "10px 15px 10px 15px",
-          fontSize: "1.05em",
+          padding: "7px 12px 7px 12px",
+          fontSize: "0.7em",
           borderRadius: "5px",
           cursor: "pointer",
           boxSizing: "border-box",

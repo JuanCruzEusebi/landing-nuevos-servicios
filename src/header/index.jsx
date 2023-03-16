@@ -79,8 +79,6 @@ export default function Header() {
         <div
           style={{
             backgroundColor: "#163583",
-            marginTop: "20px",
-            transition: "2s",
           }}
           className={`${styles.mobileMenu} ${menuOpen ? styles.show : ""}`}
         >
