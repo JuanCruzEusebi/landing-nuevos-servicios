@@ -3,9 +3,9 @@ import Footer from "../../../src/footer";
 import style from "../obras-reformas/page.module.css";
 import PersonServices from "../../../src/home/components/personServices";
 import BuisnessServices from "../../../src/home/components/buisnessServices";
-import Vidrios from "../../../src/home/components/vidrios/page";
-import FinalDeObra from "../../../src/home/components/final-de-obra/page";
-import Pisos from "../../../src/home/components/pisos/page";
+import Vidrios from "../../../src/home/components/personServices/components/vidrios/page";
+import FinalDeObra from "../../../src/home/components/personServices/components/final-de-obra/page";
+import Pisos from "../../../src/home/components/personServices/components/pisos/page";
 
 export default function LimpiezaProfesional() {
   return (
@@ -15,13 +15,13 @@ export default function LimpiezaProfesional() {
       </div>
       <article className={style.mainContainer}>
         <div className={style.descriptionContainer}>
-          <div className={style.vidriosContainer}>
+          <div>
             <Vidrios></Vidrios>
           </div>
-          <div className={style.finalDeObraContainer}>
+          <div>
             <FinalDeObra></FinalDeObra>
           </div>
-          <div className={style.pisosContainer}>
+          <div>
             <Pisos></Pisos>{" "}
           </div>
         </div>

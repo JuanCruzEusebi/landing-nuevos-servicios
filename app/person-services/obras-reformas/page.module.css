@@ -9,13 +9,16 @@
 .descriptionContainer{
     flex: 1;
     padding: 40px;
+    text-align: center;
+
 }
 
 .descriptionContainer > h1 {
     font-family: "Raleway", sans-serif;  
-    font-size: 2em;
-    font-weight: 400;
+    font-size: 3em;
+    font-weight: 300;
     letter-spacing: 2px;
+    margin: 100px 0px 20px 0px;
 }
 
 .descriptionContainer > p {
@@ -28,4 +31,26 @@
  flex: 1;
  margin: auto;
  text-align: center;
+}
+
+.vidriosContainer {
+    display: flex;
+}
+.finalDeObraContainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pisosContainer {
+    display: flex;
+}
+
+.heading {
+    font-family: "Raleway", sans-serif; 
+} 
+.subHeading {
+    font-family: "Raleway", sans-serif;  
+    font-size: 2em;
+    font-weight: 300;
+
 }
