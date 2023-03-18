@@ -45,7 +45,6 @@ export default function newServ() {
     <div
       id="servEmp"
       style={{
-        // backgroundImage: `url(${bg.src})`,
         backgroundColor: "#163583",
         backgroundSize: "cover",
         height: "100%",

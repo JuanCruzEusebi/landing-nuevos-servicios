@@ -18,32 +18,45 @@ export default function PersonServiceCard({ data }) {
     <div className={style.mainContainer}>
       {data.map((item, index) => {
         return (
-          <Link
-            style={{ color: "white", textDecoration: "none" }}
-            data={item}
-            href={`person-services/${item.route}`}
-            as={`person-services/${item.route}`}
-            key={item.id}
+          <div
+            key={index}
+            className={style.card}
+            style={{ backgroundImage: `url(${item.image})` }}
+            onMouseEnter={handleCardHover}
+            onMouseLeave={handleCardLeave}
           >
-            <div
-              key={index}
-              className={style.card}
-              style={{ backgroundImage: `url(${item.image})` }}
-              onMouseEnter={handleCardHover}
-              onMouseLeave={handleCardLeave}
-            >
-              <h1 className={style.heading}> {item.title}</h1>
-              <p className={style.para}>
-                {item.title} <br />
-                <br />
-                <br />
-                <br />
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
-                esse voluptates fugiat iure corrupti quia corporis excepturi
-                dolore nisi, veritatis, quo asperiores. Eos, qui est?
-              </p>
-            </div>
-          </Link>
+            <h1 className={style.heading}> {item.title}</h1>
+            <p className={style.para}>
+              {item.title} <br />
+              <br />
+              <br />
+              <br />
+              {item.about}
+              <br />
+              <br />
+              <br />
+              <Link
+                style={{
+                  color: "white",
+                  textDecoration: "none",
+                  fontSize: "1em",
+                  fontWeight: "300",
+                  letterSpacing: "2px",
+                  padding: "10px 10px 10px 10px",
+                  border: "1px solid white",
+                  textAlign: "center",
+                  borderRadius: "5px",
+                }}
+                href={`person-services/${item.route}`}
+                as={`person-services/${item.route}`}
+              >
+                Ver mas...
+              </Link>
+              <br />
+              <br />
+              <br />
+            </p>
+          </div>
         );
       })}
     </div>

@@ -5,32 +5,66 @@ import alfombras from "../../../../public/imgs/tapizados.jpg";
 import pisos from "../../../../public/imgs/piso.jpg";
 import style from "./personServices.module.css";
 import bg from "../../../../public/imgs/white-two.jpg";
+import control from "../../../../public/imgs/fumigacion.jpg";
+import vidrios from "../../../../public/imgs/vidrios.jpg";
 
 const data = [
   {
-    title: "FINAL DE OBRA",
-    image: final.src,
-    route: "final-de-obra",
-    id: 7,
+    title: "CONTROL DE PLAGAs",
+    image: control.src,
+    about:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
+    route: "control-de-plagas",
+    id: 3,
   },
+  {
+    title: "Limpieza Profesional ",
+    image: final.src,
+    about:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
+    route: "limpieza-profesional",
+    id: 4,
+  },
+  // {
+  //   title: "VIDRIOS",
+  //   image: vidrios.src,
+  //   about:
+  //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
+  //   route: "vidrios",
+  //   id: 1,
+  // },
+  // {
+  //   title: "FINAL DE OBRA",
+  //   image: final.src,
+  //   route: "final-de-obra",
+  //   about:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo alias facere numquam laboriosam laudantium cum optio aliquid consequatur inventore expedita.",
+  //   id: 7,
+  // },
   {
     title: "PINTURA",
     image: pintura.src,
     id: 8,
+    about:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo alias facere numquam laboriosam laudantium cum optio aliquid consequatur inventore expedita.",
     route: "pintura",
   },
   {
-    title: "OBRAS Y REFORMAS",
+    title: "OBRAS Y REFACCIONES",
     image: alfombras.src,
     route: "obras-reformas",
+    about:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo alias facere numquam laboriosam laudantium cum optio aliquid consequatur inventore expedita.",
     id: 9,
   },
-  {
-    title: "TRATAMIENTOS DE PISOS",
-    image: pisos.src,
-    id: 10,
-    route: "pisos",
-  },
+  // {
+  //   title: "TRATAMIENTOS DE PISOS",
+  //   image: pisos.src,
+  //   id: 10,
+  //   about:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo alias facere numquam laboriosam laudantium cum optio aliquid consequatur inventore expedita.",
+  //   route: "pisos",
+  // },
 ];
 
 export default function PersonServices() {
@@ -51,7 +85,7 @@ export default function PersonServices() {
       }}
     >
       <div className={style.headContainer}>
-        <h1 className={style.heading}>Servicios en Domcilio</h1>
+        <h1 className={style.heading}>Servicios en Hogares</h1>
       </div>
       <div style={{ maxWidth: "1400px" }}>
         <PersonServiceCard data={data} />

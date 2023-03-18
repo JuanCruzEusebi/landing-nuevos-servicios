@@ -13,12 +13,14 @@ export default function Obras() {
       </div>
       <article className={style.mainContainer}>
         <div className={style.descriptionContainer}>
-          <h1>Obras y Reformas</h1>
+          <h1> Obras y refacciones </h1>
+          <h2>
+            Realizamos el diseño, construcción, mantenimiento y refacción de
+            comercios y/0 viviendas
+          </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus velit
-            quia debitis reprehenderit odio asperiores tempore officia! Eligendi
-            voluptatem excepturi ea explicabo aspernatur, quas libero nesciunt
-            sit similique, voluptatum pariatur.
+            Nos encargamos de todos los rubros que conforman una obra,con esto
+            se logra facilitar el desarrollo y gerenciamiento del proyecto{" "}
           </p>
         </div>
         <div className={style.imagesContainer}>
