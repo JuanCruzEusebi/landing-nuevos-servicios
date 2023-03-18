@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <html>
+    <html style={{ margin: "0px" }}>
       <head>
         <title>Nuevos Servicios</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />

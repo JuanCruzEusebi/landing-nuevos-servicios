@@ -4,7 +4,6 @@ import style from "./page.module.css";
 import Image from "next/image";
 import PersonServices from "../../../src/home/components/personServices";
 import BuisnessServices from "../../../src/home/components/buisnessServices";
-import bg from "../../../public/imgs/service.jpg";
 
 export default function Vidrios() {
   return (
@@ -12,10 +11,7 @@ export default function Vidrios() {
       <div>
         <Header />
       </div>
-      <article
-        className={style.mainContainer}
-        // style={{ backgroundImage: `url(${bg.src})` }}
-      >
+      <article className={style.mainContainer}>
         <div className={style.descriptionContainer}>
           <h1>Vidrios</h1>
           <p>

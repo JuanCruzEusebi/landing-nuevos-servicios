@@ -67,11 +67,3 @@ export default function newServ() {
     </div>
   );
 }
-
-// - VIDRIOS EN ALTURA
-// - DESINFECCION
-// - CONTROL DE PLAGA
-// - FINAL DE OBRA
-// - PINTURA
-// - ALFOMBRAS Y TAPIZADOS
-// - TRATAMIENTOS DE PISOS
