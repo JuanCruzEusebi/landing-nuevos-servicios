@@ -1,4 +1,5 @@
-import style from "../vidrios/page.module.css";
+import style from "../../person-services/obras-reformas/page.module.css";
+
 import Image from "next/image";
 import Header from "@/src/headerapp";
 import Footer from "@/src/footerapp";

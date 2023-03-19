@@ -7,22 +7,6 @@ import style from "../buisnessServices/buisnessService.module.css";
 
 const data = [
   {
-    title: "VIDRIOS",
-    image: vidrios.src,
-    about:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
-    route: "vidrios",
-    id: 1,
-  },
-  {
-    title: "DESINFECCIÓN",
-    image: desinfeccion.src,
-    about:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
-    route: "desinfeccion",
-    id: 2,
-  },
-  {
     title: "CONTROL DE PLAGAs",
     image: control.src,
     about:
@@ -31,7 +15,23 @@ const data = [
     id: 3,
   },
   {
-    title: "FINAL DE OBRA",
+    title: "LIMPIEZA PROFESIONAL",
+    image: final.src,
+    about:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
+    route: "limpieza-empresas",
+    id: 4,
+  },
+  {
+    title: "PINTURA",
+    image: vidrios.src,
+    id: 8,
+    about:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo alias facere numquam laboriosam laudantium cum optio aliquid consequatur inventore expedita.",
+    route: "pintura-empresas",
+  },
+  {
+    title: "OBRAS Y REFACCIONES",
     image: final.src,
     about:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",

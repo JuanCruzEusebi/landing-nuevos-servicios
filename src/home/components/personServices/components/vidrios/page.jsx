@@ -15,7 +15,7 @@ export default function Vidrios() {
           <Image
             src="/imgs/desinfeccion.jpg"
             alt="pic"
-            width={200}
+            width={50}
             height={200}
           />
           <Image

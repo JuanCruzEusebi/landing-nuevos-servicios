@@ -1,0 +1,23 @@
+.contactEmail {
+    display: none;
+
+}
+
+.contactButton {
+    display: block;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .contactEmail {
+        display: block;
+
+    
+    }
+    
+    .contactButton {
+        display: none;
+
+    }
+
+  }

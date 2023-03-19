@@ -5,8 +5,7 @@ import Link from "next/link";
 export default function PersonServiceCard({ data }) {
   function handleCardHover(e) {
     const para = e.currentTarget.querySelector(`.${style.para}`);
-    para.style.height = "850em";
-    // para.style. = "850em";
+    para.style.height = "30em";
   }
 
   function handleCardLeave(e) {
@@ -31,18 +30,14 @@ export default function PersonServiceCard({ data }) {
               <br />
               <br />
               <br />
-              {item.about}
-              <br />
-              <br />
-              <br />
               <Link
                 style={{
-                  color: "white",
+                  color: "whitesmoke",
                   textDecoration: "none",
-                  fontSize: "1em",
-                  fontWeight: "300",
+                  fontSize: "1.1em",
+                  fontWeight: "400",
                   letterSpacing: "2px",
-                  padding: "10px 10px 10px 10px",
+                  padding: "10px 20px 10px 20px",
                   border: "1px solid white",
                   textAlign: "center",
                   borderRadius: "5px",

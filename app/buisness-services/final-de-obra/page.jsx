@@ -1,12 +1,12 @@
 import Header from "@/src/headerapp";
 import Footer from "@/src/footerapp";
-import style from "../vidrios/page.module.css";
+import style from "../../person-services/obras-reformas/page.module.css";
 
 import Image from "next/image";
 import PersonServices from "../../../src/home/components/personServices";
 import BuisnessServices from "../../../src/home/components/buisnessServices";
 
-export default function FinalDeObra() {
+export default function Obras() {
   return (
     <section>
       <div>
@@ -14,38 +14,42 @@ export default function FinalDeObra() {
       </div>
       <article className={style.mainContainer}>
         <div className={style.descriptionContainer}>
-          <h1>Final de Obra</h1>
+          <h1> Obras y refacciones </h1>
+          <h2>
+            Realizamos el diseño, construcción, mantenimiento y refacción de
+            comercios y/0 viviendas
+          </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus velit
-            quia debitis reprehenderit odio asperiores tempore officia! Eligendi
-            voluptatem excepturi ea explicabo aspernatur, quas libero nesciunt
-            sit similique, voluptatum pariatur.
+            Nos encargamos de todos los rubros que conforman una obra,con esto
+            se logra facilitar el desarrollo y gerenciamiento del proyecto{" "}
           </p>
         </div>
         <div className={style.imagesContainer}>
           <Image
             src="/imgs/desinfeccion.jpg"
             alt="pic"
-            width={200}
+            width={300}
             height={200}
+            className={style.img}
           />
           <Image
             src="/imgs/finaldeobra.jpg"
-            width={200}
+            width={300}
             height={200}
             alt="pic"
+            className={style.img}
           />
           <Image
             src="/imgs/finaldeobra.jpg"
             width={400}
             height={200}
             alt="pic"
+            className={style.img}
           />
         </div>
       </article>
-      <BuisnessServices></BuisnessServices>
-
       <PersonServices></PersonServices>
+      <BuisnessServices></BuisnessServices>
       <div>
         <Footer></Footer>
       </div>

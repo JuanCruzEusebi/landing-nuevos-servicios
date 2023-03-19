@@ -18,29 +18,13 @@ const data = [
     id: 3,
   },
   {
-    title: "Limpieza Profesional ",
+    title: "LIMPIEZA PROFESIONAL",
     image: final.src,
     about:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
     route: "limpieza-profesional",
     id: 4,
   },
-  // {
-  //   title: "VIDRIOS",
-  //   image: vidrios.src,
-  //   about:
-  //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
-  //   route: "vidrios",
-  //   id: 1,
-  // },
-  // {
-  //   title: "FINAL DE OBRA",
-  //   image: final.src,
-  //   route: "final-de-obra",
-  //   about:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo alias facere numquam laboriosam laudantium cum optio aliquid consequatur inventore expedita.",
-  //   id: 7,
-  // },
   {
     title: "PINTURA",
     image: pintura.src,
@@ -57,14 +41,6 @@ const data = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo alias facere numquam laboriosam laudantium cum optio aliquid consequatur inventore expedita.",
     id: 9,
   },
-  // {
-  //   title: "TRATAMIENTOS DE PISOS",
-  //   image: pisos.src,
-  //   id: 10,
-  //   about:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo alias facere numquam laboriosam laudantium cum optio aliquid consequatur inventore expedita.",
-  //   route: "pisos",
-  // },
 ];
 
 export default function PersonServices() {
@@ -73,7 +49,6 @@ export default function PersonServices() {
       id="servicios"
       style={{
         backgroundImage: `url(${bg.src})`,
-        // backgroundColor: "whitesmoke",
         backgroundSize: "cover",
         height: "100%",
         position: "center",

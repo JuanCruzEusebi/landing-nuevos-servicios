@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import style from "./contact.module.css";
 
 export default function ContactButton() {
   const router = useRouter();
@@ -32,6 +33,7 @@ export default function ContactButton() {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <a
+        className={style.contactEmail}
         style={{
           backgroundColor: "#27BD2D",
           color: "white",
@@ -52,6 +54,7 @@ export default function ContactButton() {
         Contactanos via WhatsApp
       </a>
       <button
+        className={style.contactButton}
         id="contactButton"
         style={{
           backgroundColor: "#27BD2D",

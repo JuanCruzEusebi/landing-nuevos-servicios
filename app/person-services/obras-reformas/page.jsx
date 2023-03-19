@@ -27,20 +27,23 @@ export default function Obras() {
           <Image
             src="/imgs/desinfeccion.jpg"
             alt="pic"
-            width={200}
+            width={300}
             height={200}
+            className={style.img}
           />
           <Image
             src="/imgs/finaldeobra.jpg"
-            width={200}
+            width={300}
             height={200}
             alt="pic"
+            className={style.img}
           />
           <Image
             src="/imgs/finaldeobra.jpg"
             width={400}
             height={200}
             alt="pic"
+            className={style.img}
           />
         </div>
       </article>
