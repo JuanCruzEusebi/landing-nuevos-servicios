@@ -1,5 +1,5 @@
-import Header from "@/src/headerapp";
-import Footer from "@/src/footerapp";
+import Header from "../../../src/header";
+import Footer from "../../../src/footer";
 import style from "./page.module.css";
 import Image from "next/image";
 import PersonServices from "../../../src/home/components/personServices";
