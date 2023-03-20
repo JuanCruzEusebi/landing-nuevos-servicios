@@ -1,10 +1,10 @@
 import Header from "../../../src/header";
 import Footer from "../../../src/footer";
 import style from "../obras-reformas/page.module.css";
-
 import Image from "next/image";
 import PersonServices from "../../../src/home/components/personServices";
 import BuisnessServices from "../../../src/home/components/buisnessServices";
+import OurTeam from "../../../src/ourTeam/page";
 
 export default function ControlDePlagas() {
   return (
@@ -15,11 +15,19 @@ export default function ControlDePlagas() {
       <article className={style.mainContainer}>
         <div className={style.descriptionContainer}>
           <h1>Servicio integral de control de plagas</h1>
-          <ul>
-            <li>Tratamientos rápidos, eficaces y exhaustivos.</li>
+          <ul
+            style={{
+              listStyle: "none",
+              fontFamily: "Ubuntu",
+              fontWeight: "400",
+              lineHeight: "25px",
+              padding: "0px",
+            }}
+          >
+            <li>- Tratamientos rápidos, eficaces y exhaustivos.</li>
             <li>
-              Control de insectos, control de roedores, monitoreo y
-              certificaciones
+              - Control de insectos, control de roedores, monitoreo y
+              certificaciones.
             </li>
           </ul>
           <p>
@@ -31,28 +39,29 @@ export default function ControlDePlagas() {
         </div>
         <div className={style.imagesContainer}>
           <Image
-            src="/imgs/desinfeccion.jpg"
+            src="/imgs/control-de-plagas2.jpeg"
+            width={320}
+            height={400}
             alt="pic"
-            width={200}
-            height={200}
+            style={{
+              borderRadius: "2px",
+              backgroundSize: "cover",
+              position: "center",
+            }}
           />
           <Image
-            src="/imgs/finaldeobra.jpg"
-            width={200}
-            height={200}
+            src="/imgs/control-de-plagas1.jpeg"
+            width={320}
+            height={400}
             alt="pic"
-          />
-          <Image
-            src="/imgs/finaldeobra.jpg"
-            width={400}
-            height={200}
-            alt="pic"
+            style={{ borderRadius: "2px" }}
           />
         </div>
       </article>
+      <OurTeam></OurTeam>
+      <PersonServices></PersonServices>
       <BuisnessServices></BuisnessServices>
 
-      <PersonServices></PersonServices>
       <div>
         <Footer></Footer>
       </div>

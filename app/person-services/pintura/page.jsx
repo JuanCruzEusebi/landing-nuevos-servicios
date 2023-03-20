@@ -4,6 +4,7 @@ import style from "../obras-reformas/page.module.css";
 import Image from "next/image";
 import PersonServices from "../../../src/home/components/personServices";
 import BuisnessServices from "../../../src/home/components/buisnessServices";
+import OurTeam from "../../../src/ourTeam/page";
 
 export default function Pintura() {
   return (
@@ -56,6 +57,7 @@ export default function Pintura() {
           />
         </div>
       </article>
+      <OurTeam></OurTeam>
       <PersonServices></PersonServices>
       <BuisnessServices></BuisnessServices>
 

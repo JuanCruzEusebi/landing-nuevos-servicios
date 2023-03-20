@@ -30,6 +30,7 @@ export default function PersonServiceCard({ data }) {
               <br />
               <br />
               <br />
+              <br />
               <Link
                 style={{
                   color: "whitesmoke",
@@ -47,7 +48,6 @@ export default function PersonServiceCard({ data }) {
               >
                 Ver mas...
               </Link>
-              <br />
               <br />
               <br />
             </p>

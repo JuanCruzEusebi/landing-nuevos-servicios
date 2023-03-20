@@ -2,11 +2,9 @@ import PersonServiceCard from "./components/personServiceCard";
 import final from "../../../../public/imgs/finaldeobra.jpg";
 import pintura from "../../../../public/imgs/pintura.jpg";
 import alfombras from "../../../../public/imgs/tapizados.jpg";
-import pisos from "../../../../public/imgs/piso.jpg";
 import style from "./personServices.module.css";
 import bg from "../../../../public/imgs/white-two.jpg";
-import control from "../../../../public/imgs/fumigacion.jpg";
-import vidrios from "../../../../public/imgs/vidrios.jpg";
+import control from "../../../../public/imgs/control-de-plagas1.jpeg";
 
 const data = [
   {
