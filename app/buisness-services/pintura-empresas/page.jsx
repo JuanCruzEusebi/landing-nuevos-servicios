@@ -42,18 +42,8 @@ export default function PinturaEmpresas() {
             alt="pic"
             width={200}
             height={200}
-          />
-          <Image
-            src="/imgs/finaldeobra.jpg"
-            width={200}
-            height={200}
-            alt="pic"
-          />
-          <Image
-            src="/imgs/finaldeobra.jpg"
-            width={400}
-            height={200}
-            alt="pic"
+            placeholder="blur"
+            blurDataURL={"/imgs/desinfeccion.jpg"}
           />
         </div>
       </article>

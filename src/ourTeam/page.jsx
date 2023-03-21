@@ -15,7 +15,6 @@ export default function OurTeam() {
           rápidas para situaciones extraordinarias, ya sea por auditorias,
           problemas climáticos o eventos.
           <br />
-          <br />
           Para todos los servicios que prestamos nuestra empresa tiene a todos
           sus empleados, bajo relación de dependencia, con los aportes, seguros,
           ART, y pólizas exigidas por ley.

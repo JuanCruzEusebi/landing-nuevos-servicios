@@ -1,7 +1,7 @@
 import Header from "../header";
 import AboutUs from "../aboutUs";
 import Footer from "../footer";
-import ServicesDisplay from "./components/servicesDisplay";
+import ServicesDisplay from "../main/index";
 import PersonServices from "./components/personServices";
 import BuisnessServices from "./components/buisnessServices";
 import "./home.css";
@@ -13,23 +13,18 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <html style={{ margin: "0px" }}>
-      <head>
-        <title>Nuevos Servicios</title>
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <meta charSet="utf-8" />
-        <link rel="icon" href="/favicons/favicon.ico" />
-      </head>
-      <body>
+    <div>
+      <section>
         <Header />
         <ServicesDisplay />
         <AboutUs />
         <PersonServices />
         <BuisnessServices />
-        <footer>
+
+        <div>
           <Footer></Footer>
-        </footer>
-      </body>
-    </html>
+        </div>
+      </section>
+    </div>
   );
 }

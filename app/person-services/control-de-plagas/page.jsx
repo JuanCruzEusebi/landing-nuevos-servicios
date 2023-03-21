@@ -48,13 +48,8 @@ export default function ControlDePlagas() {
               backgroundSize: "cover",
               position: "center",
             }}
-          />
-          <Image
-            src="/imgs/control-de-plagas1.jpeg"
-            width={320}
-            height={400}
-            alt="pic"
-            style={{ borderRadius: "2px" }}
+            placeholder="blur"
+            blurDataURL={"/imgs/control-de-plagas2.jpeg"}
           />
         </div>
       </article>

@@ -1,14 +1,6 @@
 "use client";
-// import Link from "next/link";
-import { Ubuntu } from "next/font/google";
 import styles from "./header.module.css";
 import { useState } from "react";
-// import bg from "../../public/imgs/piso.jpg";
-
-const fontTwo = Ubuntu({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
-});
 
 const links = [
   {

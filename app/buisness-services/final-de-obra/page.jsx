@@ -29,21 +29,9 @@ export default function Obras() {
             src="/imgs/desinfeccion.jpg"
             alt="pic"
             width={300}
+            placeholder="blur"
+            blurDataURL={"/imgs/desinfeccion.jpg"}
             height={200}
-            className={style.img}
-          />
-          <Image
-            src="/imgs/finaldeobra.jpg"
-            width={300}
-            height={200}
-            alt="pic"
-            className={style.img}
-          />
-          <Image
-            src="/imgs/finaldeobra.jpg"
-            width={400}
-            height={200}
-            alt="pic"
             className={style.img}
           />
         </div>

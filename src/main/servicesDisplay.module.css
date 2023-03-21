@@ -2,9 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;   
-    background-image: url('../../../../public/imgs/white.jpeg'); 
+    background-image: url('../../public/imgs/white.jpeg'); 
     background-color: whitesmoke;
-    opacity: 0.;
     background-size: cover;
     background-position: center;
 }
@@ -22,6 +21,14 @@
     text-align: center;
 }
 
+.paragraph {
+    color: #163583;
+    font-size: 1.3em;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'Ubuntu';
+}
 
 
 .heading {

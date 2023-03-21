@@ -2,7 +2,7 @@ import style from "./aboutUs.module.css";
 
 export default function AboutUs() {
   return (
-    <section id="sobre-nos" className={style.mainContainer}>
+    <div id="sobre-nos" className={style.mainContainer}>
       <div className={style.headContainer}>
         <h1 className={style.heading}>
           Sobre <br /> Nosotros
@@ -17,6 +17,6 @@ export default function AboutUs() {
           y la maquinaria a utilizar.
         </p>
       </div>
-    </section>
+    </div>
   );
 }
