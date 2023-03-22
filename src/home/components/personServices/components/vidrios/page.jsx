@@ -6,16 +6,34 @@ export default function Vidrios() {
     <section>
       <article className={style.mainContainer}>
         <div className={style.descriptionContainer}>
-          <h1 className={style.heading}>Vidrios</h1>
-          <h2 className={style.subHeading}>
-            Servicio de limpieza de vidrios en altura
-          </h2>
+          <h1 className={style.heading}>Limpieza de vidrios en hogares</h1>
         </div>
         <div className={style.imagesContainer}>
           <Image
-            src="/imgs/desinfeccion.jpg"
+            src="/imgs/vidrios-hogares-1.jpg"
             alt="pic"
-            width={50}
+            width={300}
+            height={200}
+            className={style.img}
+          />
+          <Image
+            src="/imgs/limpieza.jpeg"
+            alt="pic"
+            width={300}
+            height={200}
+            className={style.img}
+          />
+          <Image
+            src="/imgs/limpieza.jpeg"
+            alt="pic"
+            width={300}
+            height={200}
+            className={style.img}
+          />
+          <Image
+            src="/imgs/vidrios-hogares-1.jpg"
+            alt="pic"
+            width={300}
             height={200}
             className={style.img}
           />

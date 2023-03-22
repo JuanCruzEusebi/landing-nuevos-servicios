@@ -14,13 +14,13 @@ export default function Pisos() {
               padding: "10px",
             }}
           >
-            <li style={{ fontSize: "1.5em", marginBottom: "15px" }}>
+            <li style={{ fontSize: "1.2em", marginBottom: "15px" }}>
               - Abrillantado de pisos
             </li>
-            <li style={{ fontSize: "1.5em", marginBottom: "15px" }}>
+            <li style={{ fontSize: "1.2em", marginBottom: "15px" }}>
               - Limpiezas de alfombras
             </li>
-            <li style={{ fontSize: "1.5em", marginBottom: "15px" }}>
+            <li style={{ fontSize: "1.2em", marginBottom: "15px" }}>
               - Limpieza de eventos especiales
             </li>
           </ul>
@@ -30,9 +30,29 @@ export default function Pisos() {
             src="/imgs/desinfeccion.jpg"
             alt="pic"
             width={200}
-            height={200}
-            placeholder="blur"
-            blurDataURL={"/imgs/desinfeccion.jpg"}
+            height={300}
+            className={style.img}
+          />
+          <Image
+            src="/imgs/desinfeccion.jpg"
+            alt="pic"
+            width={200}
+            className={style.img}
+            height={300}
+          />
+          <Image
+            src="/imgs/desinfeccion.jpg"
+            alt="pic"
+            className={style.img}
+            width={200}
+            height={300}
+          />
+          <Image
+            src="/imgs/desinfeccion.jpg"
+            className={style.img}
+            alt="pic"
+            width={200}
+            height={300}
           />
         </div>
       </article>
