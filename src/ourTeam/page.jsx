@@ -9,7 +9,7 @@ export default function OurTeam() {
         </h1>
       </div>
       <div className={style.infoContainer}>
-        <p className={style.paragraph}>
+        <p className={style.paragraph} style={{ lineHeight: "30px" }}>
           Contamos con equipos armados para trabajos eventuales, como pueden ser
           visitas a planta, urgencias o finales de obra. Prestamos soluciones
           rápidas para situaciones extraordinarias, ya sea por auditorias,

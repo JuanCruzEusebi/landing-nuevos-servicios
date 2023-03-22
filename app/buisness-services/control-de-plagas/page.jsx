@@ -1,9 +1,9 @@
 import Header from "../../../src/header";
 import Footer from "../../../src/footer";
-import style from "../../person-services/obras-reformas/page.module.css";
 import Image from "next/image";
 import PersonServices from "../../../src/home/components/personServices";
 import BuisnessServices from "../../../src/home/components/buisnessServices";
+import style from "../../person-services/control-de-plagas/page.module.css";
 
 export default function ControlDePlagas() {
   return (
@@ -34,8 +34,32 @@ export default function ControlDePlagas() {
             placeholder="blur"
             blurDataURL={"/imgs/desinfeccion.jpg"}
             alt="pic"
-            width={200}
-            height={200}
+            width={400}
+            height={350}
+          />
+          <Image
+            src="/imgs/desinfeccion.jpg"
+            placeholder="blur"
+            blurDataURL={"/imgs/desinfeccion.jpg"}
+            alt="pic"
+            width={400}
+            height={350}
+          />
+          <Image
+            src="/imgs/desinfeccion.jpg"
+            placeholder="blur"
+            blurDataURL={"/imgs/desinfeccion.jpg"}
+            alt="pic"
+            width={400}
+            height={350}
+          />
+          <Image
+            src="/imgs/desinfeccion.jpg"
+            placeholder="blur"
+            blurDataURL={"/imgs/desinfeccion.jpg"}
+            alt="pic"
+            width={400}
+            height={350}
           />
         </div>
       </article>

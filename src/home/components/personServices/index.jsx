@@ -1,10 +1,11 @@
 import PersonServiceCard from "./components/personServiceCard";
-import final from "../../../../public/imgs/finaldeobra.jpg";
 import pintura from "../../../../public/imgs/pintura.jpg";
 import alfombras from "../../../../public/imgs/tapizados.jpg";
 import style from "./personServices.module.css";
 import bg from "../../../../public/imgs/white-two.jpg";
 import control from "../../../../public/imgs/control-de-plagas1.jpeg";
+import limpieza from "../../../../public/imgs/limpieza.jpeg";
+import obras from "../../../../public/imgs/obras.jpeg";
 
 const data = [
   {
@@ -17,7 +18,7 @@ const data = [
   },
   {
     title: "LIMPIEZA PROFESIONAL",
-    image: final.src,
+    image: limpieza.src,
     about:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
     route: "limpieza-profesional",
@@ -33,7 +34,7 @@ const data = [
   },
   {
     title: "OBRAS Y REFACCIONES",
-    image: alfombras.src,
+    image: obras.src,
     route: "obras-reformas",
     about:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo alias facere numquam laboriosam laudantium cum optio aliquid consequatur inventore expedita.",

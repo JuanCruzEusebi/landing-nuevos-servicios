@@ -1,9 +1,9 @@
 import vidrios from "../../../../public/imgs/vidrios.jpg";
-import desinfeccion from "../../../../public/imgs/desinfeccion.jpg";
 import control from "../../../../public/imgs/fumigacion.jpg";
 import final from "../../../../public/imgs/finaldeobra.jpg";
 import ServiceCard from "./components/buisnessServiceCard";
 import style from "../buisnessServices/buisnessService.module.css";
+import limpieza from "../../../../public/imgs/limpieza-emp.jpeg";
 
 const data = [
   {
@@ -16,7 +16,7 @@ const data = [
   },
   {
     title: "LIMPIEZA PROFESIONAL",
-    image: final.src,
+    image: limpieza.src,
     about:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
     route: "limpieza-empresas",
