@@ -33,10 +33,7 @@ export default function Footer() {
               />
             </svg>
             <li href="/">
-              <a
-                href="#home"
-                style={{ color: "white", textDecoration: "none" }}
-              >
+              <a href="/" style={{ color: "white", textDecoration: "none" }}>
                 Inicio
               </a>
             </li>

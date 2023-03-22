@@ -1,6 +1,6 @@
 import Header from "../../../src/header";
 import Footer from "../../../src/footer";
-import style from "../../person-services/obras-reformas/page.module.css";
+import style from "../../person-services/limpieza-profesional/page.module.css";
 import PersonServices from "../../../src/home/components/personServices";
 import BuisnessServices from "../../../src/home/components/buisnessServices";
 import Vidrios from "../../../src/home/components/buisnessServices/components/vidrios/page";

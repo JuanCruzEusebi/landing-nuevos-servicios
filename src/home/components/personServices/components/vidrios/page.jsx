@@ -17,7 +17,7 @@ export default function Vidrios() {
             className={style.img}
           />
           <Image
-            src="/imgs/limpieza.jpeg"
+            src="/imgs/vidrios-hogares-3.jpeg"
             alt="pic"
             width={300}
             height={200}
@@ -31,7 +31,7 @@ export default function Vidrios() {
             className={style.img}
           />
           <Image
-            src="/imgs/vidrios-hogares-1.jpg"
+            src="/imgs/vidrios-hogares-4.jpeg"
             alt="pic"
             width={300}
             height={200}

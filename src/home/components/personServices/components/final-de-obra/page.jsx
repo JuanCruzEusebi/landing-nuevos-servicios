@@ -9,28 +9,28 @@ export default function FinalDeObra() {
       </div>
       <div className={style.imagesContainer}>
         <Image
-          src="/imgs/obras-emp1.jpeg"
+          src="/imgs/limpieza-hogares-1.jpeg"
           alt="pic"
           width={300}
           height={200}
           className={style.img}
         />
         <Image
-          src="/imgs/obras-emp-2.jpeg"
+          src="/imgs/limpieza-hogares-2.jpeg"
           alt="pic"
           width={300}
           height={200}
           className={style.img}
         />
         <Image
-          src="/imgs/obras-emp-3.jpeg"
+          src="/imgs/limpieza-hogares-3.jpeg"
           alt="pic"
           width={300}
           height={200}
           className={style.img}
         />
         <Image
-          src="/imgs/obras-empresas.jpeg"
+          src="/imgs/limpieza-hogares-4.jpeg"
           alt="pic"
           width={300}
           height={200}

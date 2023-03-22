@@ -43,10 +43,6 @@
 
 
 
-
-
-
-
 @media (max-width: 800px) {
     .mainContainer{
         display: flex;
@@ -79,14 +75,24 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 70px;
        }
+       .descriptionContainer > h1 {
+        margin-top: 50px;
+    }
   }
 @media (max-width: 550px) {
+    .descriptionContainer > h1 {
+        margin-top: 50px;
+    }
     .img {
         border-radius: 2px;
         margin: 5px;
         object-fit: cover;
-        width: 330px;
-        height: 230px;
+        width: 150px;
+        height: 150px;
     }
+    .imagesContainer {
+        margin-bottom: 70px;
+       }
   }
