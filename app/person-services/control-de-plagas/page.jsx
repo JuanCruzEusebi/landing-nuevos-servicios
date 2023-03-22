@@ -15,7 +15,7 @@ export default function ControlDePlagas() {
       <article className={style.mainContainer}>
         <div className={style.descriptionContainer}>
           <h1>Servicio integral de control de plagas</h1>
-          <ul>
+          <ul className={style.ul}>
             <li>Tratamientos rápidos, eficaces y exhaustivos.</li>
             <li>
               Control de insectos, control de roedores, monitoreo y
@@ -30,7 +30,34 @@ export default function ControlDePlagas() {
           </p>
         </div>
         <div className={style.imagesContainer}>
-          <Image src="/imgs/Frame1.jpg" width={350} height={350} alt="pic" />
+          <Image
+            src="/imgs/fumi1.jpg"
+            width={350}
+            height={350}
+            alt="fumi1"
+            className={style.img}
+          />
+          <Image
+            src="/imgs/fumi2.jpg"
+            width={350}
+            height={350}
+            className={style.img}
+            alt="fumi2"
+          />
+          <Image
+            src="/imgs/fumi3.jpg"
+            width={350}
+            height={350}
+            className={style.img}
+            alt="fumi3"
+          />
+          <Image
+            src="/imgs/fumi4.jpg"
+            width={350}
+            height={350}
+            alt="fumi4"
+            className={style.img}
+          />
         </div>
       </article>
       <OurTeam></OurTeam>

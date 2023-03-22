@@ -1,13 +1,13 @@
 import vidrios from "../../../../public/imgs/vidrios.jpg";
 import control from "../../../../public/imgs/fumigacion.jpg";
-import final from "../../../../public/imgs/finaldeobra.jpg";
-import ServiceCard from "./components/buisnessServiceCard";
+import ServiceCard from "../../components/buisnessServices/components/buisnessServiceCard/index";
 import style from "../buisnessServices/buisnessService.module.css";
 import limpieza from "../../../../public/imgs/limpieza-emp.jpeg";
+import obras from "../../../../public/imgs/obras-empresas.jpeg";
 
 const data = [
   {
-    title: "CONTROL DE PLAGAs",
+    title: "CONTROL DE PLAGAS",
     image: control.src,
     about:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
@@ -32,7 +32,7 @@ const data = [
   },
   {
     title: "OBRAS Y REFACCIONES",
-    image: final.src,
+    image: obras.src,
     about:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
     route: "final-de-obra",

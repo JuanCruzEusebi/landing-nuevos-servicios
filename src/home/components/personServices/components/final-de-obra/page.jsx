@@ -1,10 +1,10 @@
-import style from "../../../../../../app/person-services/obras-reformas/page.module.css";
+import style from "./page.module.css";
 import Image from "next/image";
 
 export default function FinalDeObra() {
   return (
     <section>
-      <article className={style.finalDeObraContainer}>
+      <article className={style.mainContainer}>
         <div className={style.descriptionContainer}>
           <h1>Final de Obra</h1>
           <h2 className={style.subHeading}>

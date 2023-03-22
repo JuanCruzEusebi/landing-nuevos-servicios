@@ -1,7 +1,7 @@
 import Header from "../../../src/header";
 import Footer from "../../../src/footer";
 import style from "../../person-services/obras-reformas/page.module.css";
-
+import OurTeam from "../../../src/ourTeam/page";
 import Image from "next/image";
 import PersonServices from "../../../src/home/components/personServices";
 import BuisnessServices from "../../../src/home/components/buisnessServices";
@@ -47,6 +47,7 @@ export default function PinturaEmpresas() {
           />
         </div>
       </article>
+      <OurTeam></OurTeam>
       <PersonServices></PersonServices>
       <BuisnessServices></BuisnessServices>
 

@@ -6,6 +6,7 @@ import BuisnessServices from "../../../src/home/components/buisnessServices";
 import Vidrios from "../../../src/home/components/personServices/components/vidrios/page";
 import FinalDeObra from "../../../src/home/components/personServices/components/final-de-obra/page";
 import Pisos from "../../../src/home/components/personServices/components/pisos/page";
+import OurTeam from "../../../src/ourTeam/page";
 
 export default function LimpiezaProfesional() {
   return (
@@ -22,10 +23,11 @@ export default function LimpiezaProfesional() {
             <FinalDeObra></FinalDeObra>
           </div>
           <div>
-            <Pisos></Pisos>{" "}
+            <Pisos></Pisos>
           </div>
         </div>
       </article>
+      <OurTeam></OurTeam>
       <PersonServices></PersonServices>
       <BuisnessServices></BuisnessServices>
       <div>

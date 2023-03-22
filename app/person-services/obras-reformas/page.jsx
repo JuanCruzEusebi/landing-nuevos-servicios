@@ -3,6 +3,8 @@ import Footer from "../../../src/footer";
 import style from "./page.module.css";
 import Image from "next/image";
 import PersonServices from "../../../src/home/components/personServices";
+import OurTeam from "../../../src/ourTeam/page";
+
 import BuisnessServices from "../../../src/home/components/buisnessServices";
 
 export default function Obras() {
@@ -14,10 +16,10 @@ export default function Obras() {
       <article className={style.mainContainer}>
         <div className={style.descriptionContainer}>
           <h1> Obras y refacciones </h1>
-          <h2>
+          <p>
             Realizamos el diseño, construcción, mantenimiento y refacción de
             comercios y/0 viviendas
-          </h2>
+          </p>
           <p>
             Nos encargamos de todos los rubros que conforman una obra,con esto
             se logra facilitar el desarrollo y gerenciamiento del proyecto{" "}
@@ -25,16 +27,22 @@ export default function Obras() {
         </div>
         <div className={style.imagesContainer}>
           <Image
-            src="/imgs/desinfeccion.jpg"
+            src="/imgs/obras-ant.jpg"
             alt="pic"
             width={300}
             height={200}
-            className={style.img}
-            placeholder="blur"
-            blurDataURL={"/imgs/desinfeccion.jpg"}
+            className={style.obras}
+          />
+          <Image
+            src="/imgs/obras-desp.jpg"
+            alt="pic"
+            width={300}
+            height={200}
+            className={style.obras}
           />
         </div>
       </article>
+      <OurTeam></OurTeam>
       <PersonServices></PersonServices>
       <BuisnessServices></BuisnessServices>
       <div>

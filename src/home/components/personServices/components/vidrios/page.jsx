@@ -1,10 +1,10 @@
 import Image from "next/image";
-import style from "../../../../../../app/person-services/obras-reformas/page.module.css";
+import style from "./page.module.css";
 
 export default function Vidrios() {
   return (
     <section>
-      <article className={style.vidriosContainer}>
+      <article className={style.mainContainer}>
         <div className={style.descriptionContainer}>
           <h1 className={style.heading}>Vidrios</h1>
           <h2 className={style.subHeading}>
@@ -17,8 +17,7 @@ export default function Vidrios() {
             alt="pic"
             width={50}
             height={200}
-            placeholder="blur"
-            blurDataURL={"/imgs/desinfeccion.jpg"}
+            className={style.img}
           />
         </div>
       </article>

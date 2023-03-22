@@ -1,6 +1,5 @@
 import PersonServiceCard from "./components/personServiceCard";
-import pintura from "../../../../public/imgs/pintura.jpg";
-import alfombras from "../../../../public/imgs/tapizados.jpg";
+import pintura from "../../../../public/imgs/pintura-despues.jpeg";
 import style from "./personServices.module.css";
 import bg from "../../../../public/imgs/white-two.jpg";
 import control from "../../../../public/imgs/control-de-plagas1.jpeg";
@@ -9,7 +8,7 @@ import obras from "../../../../public/imgs/obras.jpeg";
 
 const data = [
   {
-    title: "CONTROL DE PLAGAs",
+    title: "CONTROL DE PLAGAS",
     image: control.src,
     about:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",

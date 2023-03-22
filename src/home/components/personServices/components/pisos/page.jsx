@@ -1,10 +1,10 @@
-import style from "../../../../../../app/person-services/obras-reformas/page.module.css";
+import style from "./page.module.css";
 import Image from "next/image";
 
 export default function Pisos() {
   return (
     <section>
-      <article className={style.pisosContainer}>
+      <article className={style.mainContainer}>
         <div className={style.descriptionContainer}>
           <h1>Tratamiento de Pisos</h1>
           <ul
