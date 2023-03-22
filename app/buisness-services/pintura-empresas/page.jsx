@@ -1,6 +1,6 @@
 import Header from "../../../src/header";
 import Footer from "../../../src/footer";
-import style from "../../person-services/obras-reformas/page.module.css";
+import style from "../../person-services/pintura/page.module.css";
 import OurTeam from "../../../src/ourTeam/page";
 import Image from "next/image";
 import PersonServices from "../../../src/home/components/personServices";
@@ -38,12 +38,19 @@ export default function PinturaEmpresas() {
         </div>
         <div className={style.imagesContainer}>
           <Image
-            src="/imgs/desinfeccion.jpg"
+            src="/imgs/pintura-antes.jpg"
             alt="pic"
             width={200}
             height={200}
-            placeholder="blur"
-            blurDataURL={"/imgs/desinfeccion.jpg"}
+            className={style.img}
+          />
+
+          <Image
+            src="/imgs/pintura-desp.jpg"
+            alt="pic"
+            width={200}
+            height={200}
+            className={style.img}
           />
         </div>
       </article>

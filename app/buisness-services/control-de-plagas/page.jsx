@@ -15,14 +15,12 @@ export default function ControlDePlagas() {
       <article className={style.mainContainer}>
         <div className={style.descriptionContainer}>
           <h1>Servicio integral de control de plagas</h1>
-          <ul className={style.ul}>
-            <li>Tratamientos rápidos, eficaces y exhaustivos.</li>
-            <li>
-              Control de insectos, control de roedores, monitoreo y
-              certificaciones
-            </li>
-          </ul>
           <p>
+            Contamos con tratamientos rápidos, eficaces y exhaustivos. Nuestros
+            servicios abarcan control de insectos, control de roedores,
+            monitoreo y certificaciones.
+          </p>
+          <p className={style.para}>
             Las plagas e invasores son un serio problema para la salud, además
             de dar una mala imagen del lugar en que se desarrollan. Contáctenos
             ahora mismo para que podamos ofrecerle una solución integral a sus
