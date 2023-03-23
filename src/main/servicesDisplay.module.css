@@ -28,6 +28,9 @@
     letter-spacing: 2px;
     font-weight: 400;
     font-family: 'Ubuntu';
+    width: 80vw;
+    /* border: 1px solid black; */
+    line-height: 35px;
 }
 
 
