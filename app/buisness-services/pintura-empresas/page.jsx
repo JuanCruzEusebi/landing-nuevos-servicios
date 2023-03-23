@@ -38,18 +38,17 @@ export default function PinturaEmpresas() {
         </div>
         <div className={style.imagesContainer}>
           <Image
-            src="/imgs/pintura-antes.jpg"
+            src="/imgs/NoDisponible.png"
             alt="pic"
             width={200}
-            height={200}
+            height={300}
             className={style.img}
           />
-
           <Image
-            src="/imgs/pintura-desp.jpg"
+            src="/imgs/NoDisponible.png"
             alt="pic"
             width={200}
-            height={200}
+            height={300}
             className={style.img}
           />
         </div>
