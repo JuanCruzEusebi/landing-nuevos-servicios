@@ -26,32 +26,32 @@ export default function Pisos() {
       </div>
       <div className={style.imagesContainer}>
         <Image
-          src="/imgs/desinfeccion.jpg"
+          src="/imgs/NoDisponible.png"
           alt="pic"
           width={200}
-          className={style.img}
-          height={200}
-        />
-        <Image
-          src="/imgs/desinfeccion.jpg"
-          alt="pic"
-          width={200}
-          height={200}
+          height={300}
           className={style.img}
         />
         <Image
-          src="/imgs/desinfeccion.jpg"
+          src="/imgs/NoDisponible.png"
           alt="pic"
           width={200}
-          height={200}
+          height={300}
           className={style.img}
         />
         <Image
-          src="/imgs/desinfeccion.jpg"
+          src="/imgs/NoDisponible.png"
           alt="pic"
           width={200}
+          height={300}
           className={style.img}
-          height={200}
+        />
+        <Image
+          src="/imgs/NoDisponible.png"
+          alt="pic"
+          width={200}
+          height={300}
+          className={style.img}
         />
       </div>
     </article>

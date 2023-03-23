@@ -26,31 +26,31 @@ export default function Obras() {
         </div>
         <div className={style.imagesContainer}>
           <Image
-            src="/imgs/obras-emp1.jpeg"
+            src="/imgs/NoDisponible.png"
             alt="pic"
-            width={300}
-            height={200}
+            width={200}
+            height={300}
             className={style.img}
           />
           <Image
-            src="/imgs/obras-emp-2.jpeg"
+            src="/imgs/NoDisponible.png"
             alt="pic"
-            width={300}
-            height={200}
+            width={200}
+            height={300}
             className={style.img}
           />
           <Image
-            src="/imgs/obras-emp-3.jpeg"
+            src="/imgs/NoDisponible.png"
             alt="pic"
-            width={300}
-            height={200}
+            width={200}
+            height={300}
             className={style.img}
           />
           <Image
-            src="/imgs/obras-empresas.jpeg"
+            src="/imgs/NoDisponible.png"
             alt="pic"
-            width={300}
-            height={200}
+            width={200}
+            height={300}
             className={style.img}
           />
         </div>
