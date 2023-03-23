@@ -70,6 +70,10 @@
     text-decoration: none;
 }
 
+.mainButton:hover {
+    opacity: 1;
+}
+
 
 .buttonContainer > a:hover {
     opacity: 1;

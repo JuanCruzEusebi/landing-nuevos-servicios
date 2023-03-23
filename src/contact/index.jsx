@@ -8,7 +8,7 @@ export default function ContactButton() {
 
   useEffect(() => {
     const { query } = router;
-    const email = query?.email || "juancruzeusebi@gmail.com";
+    const email = query?.email || "juanirodriguez@nuevosservicios.com.ar";
 
     const handleContactOwner = (e) => {
       e.preventDefault();
@@ -49,7 +49,7 @@ export default function ContactButton() {
           marginBottom: "20px",
           textAlign: "center",
         }}
-        href="https://api.whatsapp.com/send?phone=1557988972&text=Hola%20!"
+        href="https://api.whatsapp.com/send?phone=1150967779&text=Hola%20!"
       >
         Contactanos via WhatsApp
       </a>

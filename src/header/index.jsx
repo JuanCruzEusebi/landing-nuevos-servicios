@@ -1,6 +1,7 @@
 "use client";
 import styles from "./header.module.css";
 import { useState } from "react";
+import Link from "next/link";
 
 const links = [
   {
@@ -26,8 +27,14 @@ export default function Header() {
   return (
     <nav className={styles.navContainer}>
       <div className={styles.headContainer}>
-        <h1 className={styles.headingOne}>nuevos </h1>
-        <h1 className={styles.headingTwo}> servicios</h1>
+        <Link
+          href={"/"}
+          as={"/"}
+          style={{ textDecoration: "none", display: "flex", color: "black" }}
+        >
+          <h1 className={styles.headingOne}>nuevos </h1>
+          <h1 className={styles.headingTwo}> servicios</h1>
+        </Link>
       </div>
       <div className={styles.linksContainer}>
         <nav>
