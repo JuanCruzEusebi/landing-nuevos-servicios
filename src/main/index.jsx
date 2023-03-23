@@ -4,7 +4,7 @@ export default function ServicesDisplay() {
   return (
     <div className={styles.bodyContainer} id="home">
       <div className={styles.mainContainer}>
-        <h1 className={styles.heading}>| NUEVOS SERVICIOS |</h1>
+        <h1 className={styles.heading}>NUEVOS SERVICIOS</h1>
         <p className={styles.paragraph}>
           Servicios de limpieza y mantenimiento integral
         </p>
