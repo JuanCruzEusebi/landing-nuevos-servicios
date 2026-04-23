@@ -3,58 +3,30 @@ import style from "./page.module.css";
 import Link from "next/link";
 
 export default function BuisnessServiceCard({ data }) {
-  function handleCardHover(e) {
-    const para = e.currentTarget.querySelector(`.${style.para}`);
-    para.style.height = "30em";
-    // para.style. = "850em";
-  }
-
-  function handleCardLeave(e) {
-    const para = e.currentTarget.querySelector(`.${style.para}`);
-    para.style.height = "";
-  }
-
   return (
-    <div className={style.mainContainer}>
-      {data.map((item, index) => {
-        return (
+    <div className={style.grid}>
+      {data.map((item, index) => (
+        <div key={index} className={style.card}>
           <div
-            key={index}
-            className={style.card}
+            className={style.cardBg}
             style={{ backgroundImage: `url(${item.image})` }}
-            onMouseEnter={handleCardHover}
-            onMouseLeave={handleCardLeave}
-          >
-            <h1 className={style.heading}> {item.title}</h1>
-            <p className={style.para}>
-              {item.title} <br />
-              <br />
-              <br />
-              <br />
+          />
+          <div className={style.overlay}>
+            <span className={style.number}>
+              {String(index + 1).padStart(2, "0")}
+            </span>
+            <div className={style.cardContent}>
+              <h2 className={style.heading}>{item.title}</h2>
               <Link
-                style={{
-                  color: "whitesmoke",
-                  textDecoration: "none",
-                  fontSize: "1.1em",
-                  fontWeight: "400",
-                  letterSpacing: "2px",
-                  padding: "10px 20px 10px 20px",
-                  border: "1px solid white",
-                  textAlign: "center",
-                  borderRadius: "5px",
-                }}
+                className={style.link}
                 href={`buisness-services/${item.route}`}
-                as={`buisness-services/${item.route}`}
               >
-                Ver mas...
+                Ver más
               </Link>
-              <br />
-              <br />
-              <br />
-            </p>
+            </div>
           </div>
-        );
-      })}
+        </div>
+      ))}
     </div>
   );
 }

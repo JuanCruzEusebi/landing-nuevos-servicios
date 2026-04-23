@@ -1,10 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500&display=swap');
+.section {
+    background-color: #ffffff;
+    padding: 90px 8%;
+}
+
+.sectionHeader {
+    display: flex;
+    align-items: flex-end;
+    gap: 80px;
+    margin-bottom: 52px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eaecf4;
+}
+
+.headerLeft {
+    flex-shrink: 0;
+}
+
+.eyebrow {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72em;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #163583;
+    display: block;
+    margin-bottom: 12px;
+}
 
 .heading {
-    color: #163583;
-    font-family: 'Ubuntu';
-    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #0f1f54;
     font-size: 2.6em;
-    font-weight: 200;
-    margin-bottom: 70px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    margin: 0;
+    line-height: 1.05;
+}
+
+.sectionDesc {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.92em;
+    color: #9099b0;
+    line-height: 1.85;
+    font-weight: 300;
+    max-width: 420px;
+    padding-bottom: 4px;
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .section {
+        padding: 70px 6%;
+    }
+    .sectionHeader {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .heading {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 600px) {
+    .section {
+        padding: 60px 24px;
+    }
 }

@@ -1,4 +1,5 @@
 import "../src/home/home.css";
+import ScrollToTop from "../src/shared/ScrollToTop";
 
 export default function RootLayout({
   children,
@@ -7,7 +8,10 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body>{children}</body>
+      <body>
+        <ScrollToTop />
+        {children}
+      </body>
     </html>
   );
 }

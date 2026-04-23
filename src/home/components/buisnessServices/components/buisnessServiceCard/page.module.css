@@ -1,68 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Inter:wght@200;300;400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@300;400;500;700&family=Work+Sans:wght@200;300;400;500&display=swap');
-
-.mainContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    }   
-
-
-.card {
-    width: 270px;
-    height: 350px;
-    margin: 7px;
-    display: flex;
-    flex-direction: column;
-    background-size: cover;
-    opacity: 0.9;
-    transition: 0.7s;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
 }
 
+.card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 440px;
+    cursor: pointer;
+}
 
+.cardBg {
+    position: absolute;
+    inset: -8px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.65s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
 
-.img {
-    height: 80%;
+.card:hover .cardBg {
+    transform: scale(1.08);
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(9, 15, 42, 0.92) 0%,
+        rgba(9, 15, 42, 0.3) 55%,
+        rgba(9, 15, 42, 0.1) 80%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 22px;
+}
+
+.number {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.82em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.2);
+    letter-spacing: 2px;
+    align-self: flex-end;
+    transition: color 0.3s ease;
+    line-height: 1;
+}
+
+.card:hover .number {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .heading {
-    height: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: white;
-    text-transform: uppercase;
-    font-size: 1.9em;
-    font-weight: 300;
-    text-align: left;
-    padding: 10px;
-    text-align: center;
-    overflow-wrap: break-word;
-    overflow: hidden;
-}
-
-.para {
-    box-sizing: border-box;
-    color: white;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 0.9em;
+    font-size: 0.92em;
+    font-weight: 600;
     letter-spacing: 2px;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, 0.619);
-    text-align: center;
-    padding: 20px;
-    height: 25%;
+    text-transform: uppercase;
     margin: 0;
-    overflow: hidden;
-    transition: ease-in;
-    transition: 0.4s;
+    line-height: 1.4;
 }
 
+.link {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    font-size: 0.75em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 7px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 4px;
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 0.3s ease, transform 0.3s ease, background 0.2s ease;
+    align-self: flex-start;
+}
 
+.card:hover .link {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.link:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 1100px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 @media (max-width: 600px) {
-    .card {
-        width: 350px;
-        margin: 0;
-        margin-top: 40px;
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
     }
-  }
+    .card {
+        height: 260px;
+    }
+    .heading {
+        font-size: 0.75em;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 420px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .card {
+        height: 300px;
+    }
+}

@@ -1,68 +1,47 @@
-import vidrios from "../../../../public/imgs/vidrios.jpg";
-import control from "../../../../public/imgs/fumigacion.jpg";
-import ServiceCard from "../../components/buisnessServices/components/buisnessServiceCard/index";
-import style from "../buisnessServices/buisnessService.module.css";
+import ServiceCard from "./components/buisnessServiceCard/index";
+import style from "./buisnessService.module.css";
+import fumigacion from "../../../../public/imgs/fumigacion.jpg";
 import limpieza from "../../../../public/imgs/limpieza-emp.jpeg";
 import obras from "../../../../public/imgs/obras-empresas.jpeg";
+import pintura from "../../../../public/imgs/pintura-despues.jpeg";
 
 const data = [
   {
-    title: "CONTROL DE PLAGAS",
-    image: control.src,
-    about:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
+    title: "Control de Plagas",
+    image: fumigacion.src,
     route: "control-de-plagas",
-    id: 3,
   },
   {
-    title: "LIMPIEZA PROFESIONAL",
+    title: "Limpieza Profesional",
     image: limpieza.src,
-    about:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
     route: "limpieza-empresas",
-    id: 4,
   },
   {
-    title: "PINTURA",
-    image: vidrios.src,
-    id: 8,
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo alias facere numquam laboriosam laudantium cum optio aliquid consequatur inventore expedita.",
+    title: "Pintura",
+    image: pintura.src,
     route: "pintura-empresas",
   },
   {
-    title: "OBRAS Y REFACCIONES",
+    title: "Obras y Refacciones",
     image: obras.src,
-    about:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus itaque quod omnis tempore delectus minima distinctio illum amet nobis mollitia!",
     route: "final-de-obra",
-    id: 4,
   },
 ];
 
-export default function newServ() {
+export default function BuisnessServices() {
   return (
-    <div
-      id="servEmp"
-      style={{
-        backgroundColor: "#163583",
-        backgroundSize: "cover",
-        height: "100%",
-        position: "center",
-        paddingBottom: "100px",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        padding: "50px 20px 50px 20px",
-      }}
-    >
-      <div className={style.headContainer}>
-        <h1 className={style.heading}>Servicios Empresariales</h1>
+    <section id="servEmp" className={style.section}>
+      <div className={style.sectionHeader}>
+        <div className={style.headerLeft}>
+          <span className={style.eyebrow}>— Corporativo</span>
+          <h2 className={style.heading}>Servicios<br />Empresariales</h2>
+        </div>
+        <p className={style.sectionDesc}>
+          Soluciones profesionales para empresas, comercios e industrias.
+          Equipos especializados con protocolos diseñados a la medida de cada cliente.
+        </p>
       </div>
-      <div style={{ maxWidth: "1400px" }}>
-        <ServiceCard data={data} />
-      </div>
-    </div>
+      <ServiceCard data={data} />
+    </section>
   );
 }

@@ -35,18 +35,20 @@ export default function ContactButton() {
       <a
         className={style.contactEmail}
         style={{
-          backgroundColor: "#27BD2D",
+          backgroundColor: "#25a244",
           color: "white",
           border: "none",
           width: "auto",
-          padding: "7px 12px 7px 12px",
-          fontSize: "0.7em",
-          borderRadius: "5px",
+          padding: "10px 18px",
+          fontSize: "0.75em",
+          borderRadius: "6px",
           cursor: "pointer",
           boxSizing: "border-box",
           textDecoration: "none",
-          fontFamily: "Raleway",
-          marginBottom: "20px",
+          fontFamily: "'Raleway', sans-serif",
+          fontWeight: "500",
+          letterSpacing: "1px",
+          marginBottom: "12px",
           textAlign: "center",
         }}
         href="https://api.whatsapp.com/send?phone=1150967779&text=Hola%20!"
@@ -57,16 +59,18 @@ export default function ContactButton() {
         className={style.contactButton}
         id="contactButton"
         style={{
-          backgroundColor: "#27BD2D",
+          backgroundColor: "#25a244",
           color: "white",
           border: "none",
           width: "auto",
-          padding: "7px 12px 7px 12px",
-          fontSize: "0.7em",
-          borderRadius: "5px",
+          padding: "10px 18px",
+          fontSize: "0.75em",
+          borderRadius: "6px",
           cursor: "pointer",
           boxSizing: "border-box",
-          fontFamily: "Raleway",
+          fontFamily: "'Raleway', sans-serif",
+          fontWeight: "500",
+          letterSpacing: "1px",
         }}
       >
         Contactanos via mail
